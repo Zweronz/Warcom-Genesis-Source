@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1447117685143745}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1447117685143745
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4135255835250970}
+  - 82: {fileID: 82831151200767147}
+  - 114: {fileID: 114028373729123642}
+  - 169: {fileID: 169834647826676166}
+  m_Layer: 0
+  m_Name: weapon_rifle_fire_revbend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4135255835250970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447117685143745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!82 &82831151200767147
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447117685143745}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 4
+  MaxDistance: 45
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.11946231
+      value: 1
+      inSlope: -0.30292058
+      outSlope: -0.30292058
+      tangentMode: 0
+    - time: 0.34380537
+      value: 0.22642812
+      inSlope: -1.1307374
+      outSlope: -1.1307374
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -0.07182364
+      outSlope: -0.07182364
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0.20344277
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.16080609
+      value: 0.20954025
+      inSlope: 0.005373883
+      outSlope: 0.005373883
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &114028373729123642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447117685143745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb08b62f2b340f45b576261c379b894, type: 3}
+  m_Name:
+  isSfx: 1
+  audioClips:
+  - {fileID: 8300000, guid: ef3c13e5b3d56a243bee68155508a0e1, type: 3}
+  probability: []
+  volumOffset: 0.1
+  pitchOffset: 0.05
+  loopMode: 0
+  cutoff: 0
+--- !u!169 &169834647826676166
+AudioLowPassFilter:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447117685143745}
+  m_Enabled: 1
+  m_CutoffFrequency: 22000
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.33333334
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2

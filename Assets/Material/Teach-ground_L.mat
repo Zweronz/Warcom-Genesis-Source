@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Teach-ground_L
+  m_Shader: {fileID: 4800000, guid: 5534e99cf2be54a45bbdc05e33d30b6f, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 83b6d7b4163f1b6439eda383ba76f421, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LightMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 78f56cb2584fc2d4390e942a96dcb6eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BlendTex1
+      second:
+        m_Texture: {fileID: 2800000, guid: dc864607b925dc2478a5da255b02e166, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex1
+      second:
+        m_Texture: {fileID: 2800000, guid: dc864607b925dc2478a5da255b02e166, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelConf>
+	<Blocks>
+		<Block Id = "1" Name="BLOCK_TOWN_KILL1" Enable="0" />
+		<Block Id = "2" Name="BLOCK_TOWN_KILL2" Enable="1" />
+		<Block Id = "3" Name="BLOCK_TOWN_KILL3" Enable="0" />
+		<Block Id = "4" Name="BLOCK_TOWN_KILL4" Enable="0" />
+		<Block Id = "5" Name="BLOCK_TOWN_KILL5" Enable="0" />
+		<Block Id = "6" Name="BLOCK_TOWN_KILL6" Enable="1" />
+		<Block Id = "7" Name="BLOCK_TOWN_KILL7" Enable="0" />
+		<Block Id = "8" Name="BLOCK_TOWN_KILL8" Enable="0" />
+		<Block Id = "9" Name="BLOCK_TOWN_KILL9" Enable="0" />
+		<Block Id = "10" Name="BLOCK_TOWN_KILL10" Enable="0" />
+		<Block Id = "11" Name="BLOCK_TOWN_KILL11" Enable="0" />
+		<Block Id = "12" Name="BLOCK_TOWN_KILL12" Enable="0" />
+		<Block Id = "13" Name="BLOCK_TOWN_KILL13" Enable="0" />
+		<Block Id = "14" Name="BLOCK_TOWN_KILL14" Enable="1" />
+		<Block Id = "15" Name="BLOCK_TOWN_KILL15" Enable="1" />
+		<Block Id = "16" Name="BLOCK_TOWN_KILL16" Enable="1" />
+		<Block Id = "17" Name="BLOCK_TOWN_KILL17" Enable="0" />
+	</Blocks>
+	<Player01 SpawnPoint="P_L_092" Direction="0" />
+	<Player02 SpawnPoint="P_L_126" Direction="180" />
+	<Player03 SpawnPoint="P_L_023" Direction="210" />
+	<Player04 SpawnPoint="P_L_128" Direction="0" />
+	<Player05 SpawnPoint="P_L_109" Direction="0" />
+	<Player06 SpawnPoint="P_L_079" Direction="150" />
+	<Player07 SpawnPoint="P_L_054" Direction="270" />
+	<Player08 SpawnPoint="P_L_074" Direction="0" />
+	<Player07 SpawnPoint="P_L_031" Direction="180" />
+	<Player08 SpawnPoint="P_L_036" Direction="0" />
+	<ResurrectionPoints>
+		<ResurrectionPoint Point = "P_L_092" Direction="0" />
+		<ResurrectionPoint Point = "P_L_126" Direction="180" />
+		<ResurrectionPoint Point = "P_L_023" Direction="210" />
+		<ResurrectionPoint Point = "P_L_128" Direction="0" />
+		<ResurrectionPoint Point = "P_L_109" Direction="0" />
+		<ResurrectionPoint Point = "P_L_079" Direction="150" />
+		<ResurrectionPoint Point = "P_L_054" Direction="270" />
+		<ResurrectionPoint Point = "P_L_074" Direction="0" />
+	</ResurrectionPoints>
+	<TimeLimit Value="180" />
+	<DropItemRefreshTime Time = "30"/>
+	<Waves>
+		<Wave Id= "1" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+		<Wave Id= "2" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+		<Wave Id= "3" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+		<Wave Id= "4" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+		<Wave Id= "5" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+		<Wave Id= "6" DropItemNum = "7" MaybeDropItemName = "BulletBagweb/Expweb/MedicalBigweb/MedicalSmallweb/Moneyweb" />
+	</Waves>
+	<DropItemPoints>
+		<DropItemPoint Point="P_L_057" />
+		<DropItemPoint Point="P_L_121" />
+		<DropItemPoint Point="P_L_068" />
+		<DropItemPoint Point="P_L_049" />
+		<DropItemPoint Point="P_L_029" />
+		<DropItemPoint Point="P_L_045" />
+		<DropItemPoint Point="P_L_032" />
+	</DropItemPoints>
+
+</LevelConf>

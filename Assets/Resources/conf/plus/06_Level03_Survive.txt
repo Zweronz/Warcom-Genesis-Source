@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelConf>
+	<Blocks>
+		<Block Id="1" Name="BLOCK_TOWN_KILL1" Enable="0" />
+		<Block Id="2" Name="BLOCK_TOWN_KILL2" Enable="0" />
+		<Block Id="3" Name="BLOCK_TOWN_KILL3" Enable="1" />
+		<Block Id="4" Name="BLOCK_TOWN_KILL4" Enable="1" />
+		<Block Id="5" Name="BLOCK_TOWN_KILL5" Enable="0" />
+		<Block Id="6" Name="BLOCK_TOWN_KILL6" Enable="0" />
+		<Block Id="7" Name="BLOCK_TOWN_KILL7" Enable="0" />
+		<Block Id="8" Name="BLOCK_TOWN_KILL8" Enable="0" />
+		<Block Id="9" Name="BLOCK_TOWN_KILL9" Enable="1" />
+		<Block Id="10" Name="BLOCK_TOWN_KILL10" Enable="0" />
+		<Block Id="11" Name="BLOCK_TOWN_KILL11" Enable="0" />
+		<Block Id="12" Name="BLOCK_TOWN_KILL12" Enable="1" />
+		<Block Id="13" Name="BLOCK_TOWN_KILL13" Enable="1" />
+		<Block Id="14" Name="BLOCK_TOWN_KILL14" Enable="0" />
+		<Block Id="15" Name="BLOCK_TOWN_KILL15" Enable="0" />
+		<Block Id="16" Name="BLOCK_TOWN_KILL16" Enable="0" />
+		<Block Id="17" Name="BLOCK_TOWN_KILL17" Enable="1" />
+	</Blocks>
+	<Player SpawnPoint="P_L_124" Direction="90" />
+	<TimeLimit Value="180" />
+	<Safepoints>
+		<Safepoint Point="P_L_140" />
+		<Safepoint Point="P_L_048" />
+		<Safepoint Point="P_L_089" />
+		<Safepoint Point="P_L_123" />
+		<Safepoint Point="P_L_096" />
+	</Safepoints>
+	<PatrollingParams>
+	</PatrollingParams>
+	<Waves>
+		<Wave Id="1">
+			<Enemys>
+				<Enemy Name="Co_S2" SpawnPoint="P_L_045" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="Sc_S2" SpawnPoint="P_L_086" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_S2" SpawnPoint="P_L_120" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_098" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G2" SpawnPoint="P_L_091" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="0.7" SpawnPoints="P_L_109/P_L_051" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_113/P_L_110/P_L_109" />
+				<DropItem Name="Money01" SpawnRate="0.3" SpawnPoints="P_L_126/P_L_043" />
+			</DropItems>
+		</Wave>
+		<Wave Id="2">
+			<Enemys>
+				<Enemy Name="Co_S2" SpawnPoint="P_L_143" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="Sc_S2" SpawnPoint="P_L_136" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_S2" SpawnPoint="P_L_116" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_125" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G2" SpawnPoint="P_L_046" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="0.7" SpawnPoints="P_L_131/P_L_129" />
+				<DropItem Name="Exp01" SpawnRate="0.3" SpawnPoints="P_L_136/P_L_114" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_125/P_L_050/P_L_091" />
+				<DropItem Name="BulletBag01" SpawnRate="0.5" SpawnPoints="P_L_096/P_L_121" />
+			</DropItems>
+		</Wave>
+		<Wave Id="3">
+			<Enemys>
+				<Enemy Name="Co_S2" SpawnPoint="P_L_045" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="Sc_S2" SpawnPoint="P_L_086" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_S2" SpawnPoint="P_L_120" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_098" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G2" SpawnPoint="P_L_091" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="0.7" SpawnPoints="P_L_122/P_L_107" />
+				<DropItem Name="Money01" SpawnRate="0.3" SpawnPoints="P_L_111/P_L_142" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_140/P_L_042/P_L_048" />
+			</DropItems>
+		</Wave>
+		<Wave Id="4">
+			<Enemys>
+				<Enemy Name="Co_S2" SpawnPoint="P_L_045" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="Sc_S2" SpawnPoint="P_L_086" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_S2" SpawnPoint="P_L_120" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_098" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G2" SpawnPoint="P_L_091" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="0.7" SpawnPoints="P_L_092/P_L_085/P_L_093" />
+				<DropItem Name="BulletBag01" SpawnRate="1.0" SpawnPoints="P_L_101/P_L_132/P_L_135" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_105/P_L_100/P_L_104" />
+				<DropItem Name="Exp01" SpawnRate="0.3" SpawnPoints="P_L_120/P_L_045" />
+			</DropItems>
+		</Wave>
+	</Waves>
+</LevelConf>

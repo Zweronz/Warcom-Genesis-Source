@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1197488095596231}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1197488095596231
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4757140685427776}
+  - 82: {fileID: 82316680349469648}
+  - 114: {fileID: 114241888936125984}
+  m_Layer: 0
+  m_Name: mat_footstep_grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757140685427776
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197488095596231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!82 &82316680349469648
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197488095596231}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 4
+  MaxDistance: 8
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.15615141
+      value: 1
+      inSlope: -8.524364
+      outSlope: -8.524364
+      tangentMode: 0
+    - time: 0.2856698
+      value: 0.31722462
+      inSlope: -1.4838576
+      outSlope: -1.4838576
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -0.12267801
+      outSlope: -0.12267801
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0.49049425
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &114241888936125984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197488095596231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb08b62f2b340f45b576261c379b894, type: 3}
+  m_Name:
+  isSfx: 1
+  audioClips:
+  - {fileID: 8300000, guid: bce0e74b8ac9b1041a8970cc7baceade, type: 3}
+  - {fileID: 8300000, guid: 6014873ac2f78cb4385d2cd6722702aa, type: 3}
+  - {fileID: 8300000, guid: da23b388b5078c34ba38d7442c803a42, type: 3}
+  - {fileID: 8300000, guid: 0fca2521fe808ff489e3fa55f47c649d, type: 3}
+  - {fileID: 8300000, guid: cfd7b983d628c224bb73a072ca26e00e, type: 3}
+  probability: []
+  volumOffset: 0.1
+  pitchOffset: 0.1
+  loopMode: 0
+  cutoff: 0

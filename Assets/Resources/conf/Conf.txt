@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conf>
+	<LevelTypes>
+		<LevelType Type="0" Name="Main" Desc="LevelType Main Desc" />
+		<LevelType Type="1" Name="Branch" Desc="LevelType Branch Desc" />
+	</LevelTypes>
+	<LevelModes>
+		<LevelMode Mode="0" Name="Fight" Desc="LevelMode Fight Desc" />
+		<LevelMode Mode="1" Name="Find" Desc="LevelMode Find Desc" />
+		<LevelMode Mode="2" Name="Survive" Desc="LevelMode Survive Desc" />
+	</LevelModes>
+	<LevelScenes>
+		<LevelScene Scene="1" Name="Level01" Desc="LevelScene Scene1 Desc" />
+		<LevelScene Scene="2" Name="Level02" Desc="LevelScene Scene2 Desc" />
+		<LevelScene Scene="3" Name="Level03" Desc="LevelScene Scene3 Desc" />
+		<LevelScene Scene="4" Name="Level04" Desc="LevelScene Scene4 Desc" />
+	</LevelScenes>
+	<Tips>
+		<Tip Id="1" Text="Swipe left or right on the \nweapon icon to switch \nweapons. "/>
+		<Tip Id="2" Text="Aim for the head to drop \nenemies fast! "/>
+		<Tip Id="3" Text="Osprey's sniper rifles are ideal \nfor sneaky Grab and Go \nmissions. "/>
+		<Tip Id="4" Text="In Survival, the faster you \nkill enemies, the more bonus \nexp you'll get! "/>
+		<Tip Id="5" Text="In Grab and Go, the blue \ndots on the mini-map show \nsupplies! "/>
+		<Tip Id="6" Text="In Elimination, no ammo will \ndrop, so make every shot \ncount! "/>
+		<Tip Id="7" Text="On the map, main missions \nare red, while side missions \nare blue. "/>
+		<Tip Id="8" Text="Stop by the shop often to \nupgrade your gear! "/>
+		<Tip Id="9" Text="At the base you can switch \nweapons and see your stats \nand achievements. "/>
+		<Tip Id="10" Text="When you're not in a mission, \ntap the blue arrow at the \ntop of the screen to open the \nshortcuts menu. "/>
+		<Tip Id="11" Text="When you complete a mission \nsuccessfully you'll get double \nthe exp and cash earned! "/>
+		<Tip Id="12" Text="Visit the tBank to buy \ntCrystals that you can use to \nget the best weapons. "/>
+		<Tip Id="13" Text="You can enable and disable \nmusic and sounds in Options. "/>
+		<Tip Id="14" Text="You can change your aiming \nsensitivity in Options. "/>
+		<Tip Id="15" Text="Ammo is refilled at the end \nof every battle, but you can \nbuy more during the fight if \nnecessary. "/>
+		<Tip Id="16" Text="Enemies are deadlier up \nclose. "/>
+		<Tip Id="17" Text="If you don't attack or get hit \nfor 5 seconds, your HP will \nrecover automatically. With \nthe Rest Vest, your HP will \nstart recovering sooner. "/>
+		<Tip Id="18" Text="Accuracy-boosting gear makes \nyour crosshair smaller and \ndecreases bullet spread. "/>
+		<Tip Id="19" Text="Nanobot Serum increases the \nHP restored by first aid kits \nand Battle Bars. "/>
+		<Tip Id="20" Text="You'll get cash for earning \nachievements! "/>
+		<Tip Id="21" Text="Warning: too much gaming \nwill make you awesome at \ngames. "/>
+	</Tips>
+	<LevelTexts>
+		<LevelText Mode="0" Scene="1">
+			<Descs>
+				<Desc Id="1" Text="We've received word that ### \noperatives have infiltrated Al-Omeni and \nare planning a surprise attack on our \nposition. Strike first. "/>
+				<Desc Id="2" Text="### soldiers have surrounded the \nhome of our spy. Neutralize them. "/>
+				<Desc Id="3" Text="A ### spec ops squad is carrying \nout a secret mission in Al-Omeni. Put a \nstop to their scheme. "/>
+				<Desc Id="4" Text="### soldiers are slaughtering \ncivilians in Al-Omeni. Stop the killing. "/>
+				<Desc Id="5" Text="A ### special ops team is \npreparing to make off with Al-Omeni's \nresources. Intercept them before they \nescape. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="1" Scene="1">
+			<Descs>
+				<Desc Id="1" Text="There's a cache of precious metals in \nAl-Omeni that ### has claimed. \nTake them. "/>
+				<Desc Id="2" Text="A shipment of our weapons was \nhijacked by ### soldiers in \nAl-Omeni. Retrieve them. "/>
+				<Desc Id="3" Text="Our intel says there's an armory hidden \nin Al-Omeni. Get us some new \nhardware. "/>
+				<Desc Id="4" Text="In this brutal drought, we can't allow \n### to control the water. Refill \nour reserves. "/>
+				<Desc Id="5" Text="### forces have laid mines all \nover Al-Omeni. Find and disable them. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="2" Scene="1">
+			<Descs>
+				<Desc Id="1" Text="We've dispatched a commando team to \nraid a ### storehouse. Stall the \n### soldiers and make it out \nalive.	"/>
+				<Desc Id="2" Text="### forces have launched a \nbrutal attack on Al-Omeni. Make sure \nour spy survives. "/>
+				<Desc Id="3" Text="### soldiers are killing \nindiscriminately in Al-Omeni. Find out \nwhat's happening and get out alive. "/>
+				<Desc Id="4" Text="The ### assault on Al-Omeni \ncontinues. Slow them down until our \nreinforcements arrive. "/>
+				<Desc Id="5" Text="One of our spies infiltrated the \n### forces in Al-Omeni but his \ncover's been blown. Extract him before \nthey kill him. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="0" Scene="2">
+			<Descs>
+				<Desc Id="1" Text="### forces have taken Uramba's \nmain road. Clear them out.	"/>
+				<Desc Id="2" Text="### soldiers have been scouting \nUramba to set up a garrison. Wipe \nthem out before more arrive. "/>
+				<Desc Id="3" Text="### forces just scored a victory \nin Uramba, but their celebration will be \nbrief. Ambush and eliminate them. "/>
+				<Desc Id="4" Text="### soldiers have set up a \ngarrison in Uramba. Clear them out and \nbring back their resources. "/>
+				<Desc Id="5" Text="We've learned that a ### convoy \ncarrying our POWs will be passing \nthrough Uramba. Hit it hard and bring \nour boys home. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="1" Scene="2">
+			<Descs>
+				<Desc Id="1" Text="There's a ### resource cache near \nUramba. Clear it out before they move \nit. "/>
+				<Desc Id="2" Text="### agents have planted \njamming devices all over Uramba. If \nthey're activated, our comms network \nwill be finished. Find and remove them \nall. "/>
+				<Desc Id="3" Text="### is preparing a propaganda \nbroadcast in Uramba. Hunt down the \nhard drives containing their propaganda. "/>
+				<Desc Id="4" Text="### has built a storehouse in \nUramba. Raid it to disrupt their food \nsupply. "/>
+				<Desc Id="5" Text="We've been running low on equipment \nlately, but luckily ### has a \nwarehouse in Uramba. Raid it. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="2" Scene="2">
+			<Descs>
+				<Desc Id="1" Text="You'll be parachuting into Uramba to \nfind out what ### is plotting. \nSurvive and report back. "/>
+				<Desc Id="2" Text="Uramba is under siege by ### \nfighters. Repel their invasion force to \nprotect our supply route. "/>
+				<Desc Id="3" Text="We've got an informant waiting for us \nin Uramba with new information. To \nget to him, you'll need to hold off the \n### assault. "/>
+				<Desc Id="4" Text="We've sent a sapper team to sabotage \n###'s comms network. Stall the \nenemy and buy our boys some time. "/>
+				<Desc Id="5" Text="### is summoning its best \nsoldiers to Uramba and we need you to \nfind out what they're planning. Just \nmake sure you survive. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="0" Scene="3">
+			<Descs>
+				<Desc Id="1" Text="### is occupying Copperhead \nMine with a small force. Eliminate \nthem and take the mine.	"/>
+				<Desc Id="2" Text="### is using Copperhead Mine to \ntransport resources. Take out their \nworkers to derail the operation. "/>
+				<Desc Id="3" Text="### scientists are carrying out \nexperiments in Copperhead Mine. \nEliminate the guards and bring the \nscientists back to base. "/>
+				<Desc Id="4" Text="The soldiers patrolling the mine are \npacking ###'s best weapons. \nMake sure they never return to the \nsurface. "/>
+				<Desc Id="5" Text="Rumor has it that there are vital \nresources beneath the mine, but \n### troops got there first. Clear \nthem out. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="1" Scene="3">
+			<Descs>
+				<Desc Id="1" Text="Some of our men left intel discs in the \nmine during a mission. Recover them \nbefore ### soldiers find them. "/>
+				<Desc Id="2" Text="There's a lot of gear in the mine that \nwe can use. Go in and claim it all for \nour side. "/>
+				<Desc Id="3" Text="We've heard reports of high energy \nreadings from within the mine, which \nmight mean a fuel source. Get down \nthere and gather as much of it as you \ncan. "/>
+				<Desc Id="4" Text="One of our resource shipments was \nhijacked by ### forces and \nhidden in the mine. Get our resources \nback. "/>
+				<Desc Id="5" Text="### workers have been \nextracting resources from the mine and \nleaving them nearly unguarded. Take \nthis opportunity to take them for our \nside. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="2" Scene="3">
+			<Descs>
+				<Desc Id="1" Text="Infiltrate the mine and assess the \nresource situation in there without \ngetting yourself killed. "/>
+				<Desc Id="2" Text="Survive the ### forces and bring \nback the resources in the mine. "/>
+				<Desc Id="3" Text="### forces took our base in the \nmine with a sneak attack. Engage the \nenemy until reinforcements arrive. "/>
+				<Desc Id="4" Text="We've planted bioweapons in the mine. \nDon't let the enemy get to them before \nwe can detonate them.	"/>
+				<Desc Id="5" Text="Our air support is getting ready to hit \n###'s lab. Make sure their \nsoldiers don't get there in time to \ndefend it. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="0" Scene="4">
+			<Descs>
+				<Desc Id="1" Text="### forces have been gathering \nat Fort Johnson. Wipe them out before \nthey can attack us.	"/>
+				<Desc Id="2" Text="Our scientists need equipment from the \nfort. Clear the enemies in their path. "/>
+				<Desc Id="3" Text="We have a strike force preparing a \nfrontal assault on the base. Attack \nfrom the side to split the enemy's \nstrength. "/>
+				<Desc Id="4" Text="We need control of the base. Eliminate \nthe ### forces occupying it. "/>
+				<Desc Id="5" Text="### is planning to launch a nuke \nfrom the base. Stop the launch. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="1" Scene="4">
+			<Descs>
+				<Desc Id="1" Text="There's a huge cache of military \nhardware at the base, and now's the \ntime to seize it. "/>
+				<Desc Id="2" Text="We've finally found a way into the \nbase's lab, but we're going to need ID \ncards. Find some. "/>
+				<Desc Id="3" Text="Radar jammers at the base are \ndisrupting our communications. Find \nthem.	"/>
+				<Desc Id="4" Text="### is planning to sell weaponry \nto an unknown group. Intercept the \ngoods. "/>
+				<Desc Id="5" Text="We're running out of ammo. Sneak into \nthe base and restock. "/>
+			</Descs>
+		</LevelText>
+		<LevelText Mode="2" Scene="4">
+			<Descs>
+				<Desc Id="1" Text="### soldiers have already broken \nthrough our defenses at the base, and \nour forces inside won't hold out much \nlonger. Get to the base and provide \nreinforcement. "/>
+				<Desc Id="2" Text="We have a team entering the base \nthrough a tunnel to seize resources. \nDistract the enemy long enough for our \nteam to get in and out. "/>
+				<Desc Id="3" Text="The enemy forces outside the base are \npreparing a siege, but we need more \ntime to finish building our new weapon. \nHold them off until we finish. "/>
+				<Desc Id="4" Text="### has launched an all-out \nassault on the base. If we lose the \nbase, we'll lose everything. Hold out \nuntil reinforcements arrive. "/>
+				<Desc Id="5" Text="We've captured a ### general. \nMake sure his soldiers don't get to him \nbefore our helicopter does. "/>
+			</Descs>
+		</LevelText>
+	</LevelTexts>
+	<LevelWeekExpMoneys>
+		<LevelWeekExpMoney Week="1" LevelExp="500" ExpBagExp="50" LevelMoney="500" MoneyBagMoney="50"/>
+		<LevelWeekExpMoney Week="2" LevelExp="913" ExpBagExp="121" LevelMoney="1117" MoneyBagMoney="149"/>
+		<LevelWeekExpMoney Week="3" LevelExp="927" ExpBagExp="123" LevelMoney="1267" MoneyBagMoney="169"/>
+		<LevelWeekExpMoney Week="4" LevelExp="939" ExpBagExp="126" LevelMoney="1383" MoneyBagMoney="185"/>
+		<LevelWeekExpMoney Week="5" LevelExp="961" ExpBagExp="128" LevelMoney="1483" MoneyBagMoney="198"/>
+		<LevelWeekExpMoney Week="6" LevelExp="981" ExpBagExp="131" LevelMoney="1570" MoneyBagMoney="209"/>
+		<LevelWeekExpMoney Week="7" LevelExp="1004" ExpBagExp="134" LevelMoney="1647" MoneyBagMoney="219"/>
+		<LevelWeekExpMoney Week="8" LevelExp="1030" ExpBagExp="137" LevelMoney="1712" MoneyBagMoney="229"/>
+		<LevelWeekExpMoney Week="9" LevelExp="1053" ExpBagExp="141" LevelMoney="1777" MoneyBagMoney="237"/>
+		<LevelWeekExpMoney Week="10" LevelExp="1084" ExpBagExp="144" LevelMoney="1835" MoneyBagMoney="245"/>
+		<LevelWeekExpMoney Week="11" LevelExp="1112" ExpBagExp="148" LevelMoney="1890" MoneyBagMoney="252"/>
+		<LevelWeekExpMoney Week="12" LevelExp="1143" ExpBagExp="152" LevelMoney="1940" MoneyBagMoney="259"/>
+		<LevelWeekExpMoney Week="13" LevelExp="1175" ExpBagExp="156" LevelMoney="1991" MoneyBagMoney="265"/>
+		<LevelWeekExpMoney Week="14" LevelExp="1205" ExpBagExp="161" LevelMoney="2037" MoneyBagMoney="271"/>
+		<LevelWeekExpMoney Week="15" LevelExp="1242" ExpBagExp="165" LevelMoney="2079" MoneyBagMoney="277"/>
+		<LevelWeekExpMoney Week="16" LevelExp="1275" ExpBagExp="170" LevelMoney="2118" MoneyBagMoney="283"/>
+		<LevelWeekExpMoney Week="17" LevelExp="1311" ExpBagExp="175" LevelMoney="2159" MoneyBagMoney="288"/>
+		<LevelWeekExpMoney Week="18" LevelExp="1348" ExpBagExp="180" LevelMoney="2197" MoneyBagMoney="293"/>
+		<LevelWeekExpMoney Week="19" LevelExp="1387" ExpBagExp="185" LevelMoney="2233" MoneyBagMoney="298"/>
+		<LevelWeekExpMoney Week="20" LevelExp="1428" ExpBagExp="190" LevelMoney="2267" MoneyBagMoney="303"/>
+		<LevelWeekExpMoney Week="21" LevelExp="1465" ExpBagExp="196" LevelMoney="2304" MoneyBagMoney="307"/>
+		<LevelWeekExpMoney Week="22" LevelExp="1509" ExpBagExp="201" LevelMoney="2334" MoneyBagMoney="312"/>
+		<LevelWeekExpMoney Week="23" LevelExp="1550" ExpBagExp="207" LevelMoney="2367" MoneyBagMoney="316"/>
+		<LevelWeekExpMoney Week="24" LevelExp="1592" ExpBagExp="213" LevelMoney="2399" MoneyBagMoney="320"/>
+		<LevelWeekExpMoney Week="25" LevelExp="1641" ExpBagExp="218" LevelMoney="2429" MoneyBagMoney="324"/>
+		<LevelWeekExpMoney Week="26" LevelExp="1686" ExpBagExp="224" LevelMoney="2457" MoneyBagMoney="328"/>
+		<LevelWeekExpMoney Week="27" LevelExp="1728" ExpBagExp="231" LevelMoney="2485" MoneyBagMoney="332"/>
+		<LevelWeekExpMoney Week="28" LevelExp="1776" ExpBagExp="237" LevelMoney="2516" MoneyBagMoney="335"/>
+		<LevelWeekExpMoney Week="29" LevelExp="1825" ExpBagExp="243" LevelMoney="2541" MoneyBagMoney="339"/>
+		<LevelWeekExpMoney Week="30" LevelExp="1871" ExpBagExp="250" LevelMoney="2570" MoneyBagMoney="342"/>
+		<LevelWeekExpMoney Week="31" LevelExp="1924" ExpBagExp="256" LevelMoney="2593" MoneyBagMoney="346"/>
+		<LevelWeekExpMoney Week="32" LevelExp="1972" ExpBagExp="263" LevelMoney="2620" MoneyBagMoney="349"/>
+		<LevelWeekExpMoney Week="33" LevelExp="2022" ExpBagExp="270" LevelMoney="2646" MoneyBagMoney="352"/>
+		<LevelWeekExpMoney Week="34" LevelExp="2073" ExpBagExp="277" LevelMoney="2666" MoneyBagMoney="356"/>
+		<LevelWeekExpMoney Week="35" LevelExp="2126" ExpBagExp="284" LevelMoney="2691" MoneyBagMoney="359"/>
+		<LevelWeekExpMoney Week="36" LevelExp="2179" ExpBagExp="291" LevelMoney="2714" MoneyBagMoney="362"/>
+		<LevelWeekExpMoney Week="37" LevelExp="2234" ExpBagExp="298" LevelMoney="2737" MoneyBagMoney="365"/>
+		<LevelWeekExpMoney Week="38" LevelExp="2291" ExpBagExp="305" LevelMoney="2760" MoneyBagMoney="368"/>
+		<LevelWeekExpMoney Week="39" LevelExp="2343" ExpBagExp="313" LevelMoney="2781" MoneyBagMoney="371"/>
+		<LevelWeekExpMoney Week="40" LevelExp="2402" ExpBagExp="320" LevelMoney="2802" MoneyBagMoney="374"/>
+		<LevelWeekExpMoney Week="41" LevelExp="2456" ExpBagExp="328" LevelMoney="2822" MoneyBagMoney="377"/>
+		<LevelWeekExpMoney Week="42" LevelExp="2517" ExpBagExp="335" LevelMoney="2847" MoneyBagMoney="379"/>
+		<LevelWeekExpMoney Week="43" LevelExp="2574" ExpBagExp="343" LevelMoney="2866" MoneyBagMoney="382"/>
+		<LevelWeekExpMoney Week="44" LevelExp="2633" ExpBagExp="351" LevelMoney="2884" MoneyBagMoney="385"/>
+		<LevelWeekExpMoney Week="45" LevelExp="2692" ExpBagExp="359" LevelMoney="2907" MoneyBagMoney="387"/>
+		<LevelWeekExpMoney Week="46" LevelExp="2752" ExpBagExp="367" LevelMoney="2925" MoneyBagMoney="390"/>
+		<LevelWeekExpMoney Week="47" LevelExp="2814" ExpBagExp="375" LevelMoney="2942" MoneyBagMoney="393"/>
+		<LevelWeekExpMoney Week="48" LevelExp="2877" ExpBagExp="383" LevelMoney="2963" MoneyBagMoney="395"/>
+		<LevelWeekExpMoney Week="49" LevelExp="2935" ExpBagExp="392" LevelMoney="2979" MoneyBagMoney="398"/>
+		<LevelWeekExpMoney Week="50" LevelExp="3000" ExpBagExp="400" LevelMoney="3000" MoneyBagMoney="400"/>
+		<LevelWeekExpMoney Week="51" LevelExp="3066" ExpBagExp="408" LevelMoney="3020" MoneyBagMoney="402"/>
+		<LevelWeekExpMoney Week="52" LevelExp="3128" ExpBagExp="417" LevelMoney="3035" MoneyBagMoney="405"/>
+	</LevelWeekExpMoneys>
+	<LevelUpExps>
+		<LevelUpExp Lv="1" Exp="1500" TotalExp="0"/>
+		<LevelUpExp Lv="2" Exp="1617" TotalExp="1500"/>
+		<LevelUpExp Lv="3" Exp="1765" TotalExp="3117"/>
+		<LevelUpExp Lv="4" Exp="1941" TotalExp="4882"/>
+		<LevelUpExp Lv="5" Exp="2142" TotalExp="6823"/>
+		<LevelUpExp Lv="6" Exp="2369" TotalExp="8965"/>
+		<LevelUpExp Lv="7" Exp="2620" TotalExp="11334"/>
+		<LevelUpExp Lv="8" Exp="2897" TotalExp="13954"/>
+		<LevelUpExp Lv="9" Exp="3201" TotalExp="16851"/>
+		<LevelUpExp Lv="10" Exp="3531" TotalExp="20052"/>
+		<LevelUpExp Lv="11" Exp="3889" TotalExp="23583"/>
+		<LevelUpExp Lv="12" Exp="4275" TotalExp="27472"/>
+		<LevelUpExp Lv="13" Exp="4692" TotalExp="31747"/>
+		<LevelUpExp Lv="14" Exp="5140" TotalExp="36439"/>
+		<LevelUpExp Lv="15" Exp="5619" TotalExp="41579"/>
+		<LevelUpExp Lv="16" Exp="6132" TotalExp="47198"/>
+		<LevelUpExp Lv="17" Exp="6679" TotalExp="53330"/>
+		<LevelUpExp Lv="18" Exp="7262" TotalExp="60009"/>
+		<LevelUpExp Lv="19" Exp="7882" TotalExp="67271"/>
+		<LevelUpExp Lv="20" Exp="8539" TotalExp="75153"/>
+		<LevelUpExp Lv="21" Exp="9236" TotalExp="83692"/>
+		<LevelUpExp Lv="22" Exp="9974" TotalExp="92928"/>
+		<LevelUpExp Lv="23" Exp="10753" TotalExp="102902"/>
+		<LevelUpExp Lv="24" Exp="11575" TotalExp="113655"/>
+		<LevelUpExp Lv="25" Exp="12441" TotalExp="125230"/>
+		<LevelUpExp Lv="26" Exp="13354" TotalExp="137671"/>
+		<LevelUpExp Lv="27" Exp="14312" TotalExp="151025"/>
+		<LevelUpExp Lv="28" Exp="15319" TotalExp="165337"/>
+		<LevelUpExp Lv="29" Exp="16376" TotalExp="180656"/>
+		<LevelUpExp Lv="30" Exp="17483" TotalExp="197032"/>
+		<LevelUpExp Lv="31" Exp="18642" TotalExp="214515"/>
+		<LevelUpExp Lv="32" Exp="19854" TotalExp="233157"/>
+		<LevelUpExp Lv="33" Exp="21121" TotalExp="253011"/>
+		<LevelUpExp Lv="34" Exp="22443" TotalExp="274132"/>
+		<LevelUpExp Lv="35" Exp="23823" TotalExp="296575"/>
+		<LevelUpExp Lv="36" Exp="25261" TotalExp="320398"/>
+		<LevelUpExp Lv="37" Exp="26759" TotalExp="345659"/>
+		<LevelUpExp Lv="38" Exp="28318" TotalExp="372418"/>
+		<LevelUpExp Lv="39" Exp="29938" TotalExp="400736"/>
+		<LevelUpExp Lv="40" Exp="31623" TotalExp="430674"/>
+		<LevelUpExp Lv="41" Exp="33372" TotalExp="462297"/>
+		<LevelUpExp Lv="42" Exp="35187" TotalExp="495669"/>
+		<LevelUpExp Lv="43" Exp="37070" TotalExp="530856"/>
+		<LevelUpExp Lv="44" Exp="39021" TotalExp="567926"/>
+		<LevelUpExp Lv="45" Exp="41042" TotalExp="606947"/>
+		<LevelUpExp Lv="46" Exp="43135" TotalExp="647989"/>
+		<LevelUpExp Lv="47" Exp="45300" TotalExp="691124"/>
+		<LevelUpExp Lv="48" Exp="47538" TotalExp="736424"/>
+		<LevelUpExp Lv="49" Exp="49852" TotalExp="783962"/>
+		<LevelUpExp Lv="50" Exp="52242" TotalExp="833814"/>
+		<LevelUpExp Lv="51" Exp="54709" TotalExp="886056"/>
+		<LevelUpExp Lv="52" Exp="57256" TotalExp="940765"/>
+	</LevelUpExps>
+	<Characters>
+		<Character Id="1" Name="FALCON" Model="Character01" HP="1000" HPRecoverSpeed="120" Speed="4" />
+		<Character Id="2" Name="OSPREY" Model="Character02" HP="1100" HPRecoverSpeed="130" Speed="3.5" />
+		<Character Id="3" Name="HARRIER" Model="Character03" HP="1250" HPRecoverSpeed="160" Speed="4.5" />
+		<Character Id="4" Name="CASSOWARY" Model="Character04" HP="1500" HPRecoverSpeed="100" Speed="3" />
+	</Characters>
+	<Enemies>
+		<Enemy Id="0" Name="Sc_S1" Model="Enemy01A" Skin="" Weapon="W_SubmachineGun00" />
+		<Enemy Id="1" Name="Sc_S2" Model="Enemy01A" Skin="" Weapon="W_SubmachineGun01" />
+		<Enemy Id="2" Name="Sc_S3" Model="Enemy01A" Skin="" Weapon="W_SubmachineGun02" />
+		<Enemy Id="3" Name="Sc_S4" Model="Enemy01A" Skin="" Weapon="W_SubmachineGun03" />
+		<Enemy Id="4" Name="Sc_G1" Model="Enemy01A" Skin="" Weapon="W_Handgun00" />
+		<Enemy Id="5" Name="Sc_G2" Model="Enemy01A" Skin="" Weapon="W_Handgun01" />
+		<Enemy Id="6" Name="Sc_G3" Model="Enemy01A" Skin="" Weapon="W_Handgun02" />
+		<Enemy Id="7" Name="Sc_G4" Model="Enemy01A" Skin="" Weapon="W_Handgun03" />
+		<Enemy Id="8" Name="Sn_S1" Model="Enemy02A" Skin="" Weapon="W_SniperRifle00" />
+		<Enemy Id="9" Name="Sn_S2" Model="Enemy02A" Skin="" Weapon="W_SniperRifle01" />
+		<Enemy Id="10" Name="Sn_S3" Model="Enemy02A" Skin="" Weapon="W_SniperRifle02" />
+		<Enemy Id="11" Name="Sn_S4" Model="Enemy02A" Skin="" Weapon="W_SniperRifle03" />
+		<Enemy Id="12" Name="Sn_G1" Model="Enemy02A" Skin="" Weapon="W_Handgun00" />
+		<Enemy Id="13" Name="Sn_G2" Model="Enemy02A" Skin="" Weapon="W_Handgun01" />
+		<Enemy Id="14" Name="Sn_G3" Model="Enemy02A" Skin="" Weapon="W_Handgun02" />
+		<Enemy Id="15" Name="Sn_G4" Model="Enemy02A" Skin="" Weapon="W_Handgun03" />
+		<Enemy Id="16" Name="As_S1" Model="Enemy03A" Skin="" Weapon="W_Shotgun00" />
+		<Enemy Id="17" Name="As_S2" Model="Enemy03A" Skin="" Weapon="W_Shotgun01" />
+		<Enemy Id="18" Name="As_S3" Model="Enemy03A" Skin="" Weapon="W_Shotgun02" />
+		<Enemy Id="19" Name="As_S4" Model="Enemy03A" Skin="" Weapon="W_Shotgun03" />
+		<Enemy Id="20" Name="As_G1" Model="Enemy03A" Skin="" Weapon="W_AssaultRifle00" />
+		<Enemy Id="21" Name="As_G2" Model="Enemy03A" Skin="" Weapon="W_AssaultRifle01" />
+		<Enemy Id="22" Name="As_G3" Model="Enemy03A" Skin="" Weapon="W_AssaultRifle02" />
+		<Enemy Id="23" Name="As_G4" Model="Enemy03A" Skin="" Weapon="W_AssaultRifle03" />
+		<Enemy Id="24" Name="Co_S1" Model="Enemy04A" Skin="" Weapon="W_RPG00" />
+		<Enemy Id="25" Name="Co_S2" Model="Enemy04A" Skin="" Weapon="W_RPG01" />
+		<Enemy Id="26" Name="Co_S3" Model="Enemy04A" Skin="" Weapon="W_RPG02" />
+		<Enemy Id="27" Name="Co_S4" Model="Enemy04A" Skin="" Weapon="W_RPG03" />
+		<Enemy Id="28" Name="Co_G1" Model="Enemy04A" Skin="" Weapon="W_AssaultRifle00" />
+		<Enemy Id="29" Name="Co_G2" Model="Enemy04A" Skin="" Weapon="W_AssaultRifle01" />
+		<Enemy Id="30" Name="Co_G3" Model="Enemy04A" Skin="" Weapon="W_AssaultRifle02" />
+		<Enemy Id="31" Name="Co_G4" Model="Enemy04A" Skin="" Weapon="W_AssaultRifle03" />
+	</Enemies>
+	<EnemyDataCalc PlayerBaseHp="1000.0" PlayerDeadTimeBegin="20.0" PlayerDeadTimeEnd="8.0" MaxEnemyShotRate="0.8" MaxEnemyHeadshotRate="0.0" MaxEnemyInFightCount="4" />
+	<WeaponDamageModifiers>
+		<WeaponDamageModifier WeaponType="Handgun" Distance1="10.0" Distance2="18.0" Damage1="1.5" Damage2="1.0" Damage3="1.0"/>
+		<WeaponDamageModifier WeaponType="AssaultRifle" Distance1="10.0" Distance2="18.0" Damage1="1.0" Damage2="1.0" Damage3="1.0"/>
+		<WeaponDamageModifier WeaponType="SubmachineGun" Distance1="12.0" Distance2="18.0" Damage1="1.0" Damage2="1.0" Damage3="1.0"/>
+		<WeaponDamageModifier WeaponType="Shotgun" Distance1="7.0" Distance2="12.0" Damage1="1.0" Damage2="0.7" Damage3="0.4"/>
+		<WeaponDamageModifier WeaponType="SniperRifle" Distance1="12.0" Distance2="18.0" Damage1="1.0" Damage2="1.0" Damage3="1.0"/>
+	</WeaponDamageModifiers>
+	<EnemyShotRateModifiers>
+		<EnemyShotRateModifier LevelMode="Fight" Distance1="4.0" Distance2="8.0" />
+		<EnemyShotRateModifier LevelMode="Find" Distance1="6.0" Distance2="10.0" />
+		<EnemyShotRateModifier LevelMode="Survive" Distance1="4.0" Distance2="8.0" />
+	</EnemyShotRateModifiers>
+	<AIParams>
+		<AIParam Id="0" State="IW_FC_Wood" DetectActiveRadius="7" DetectActiveAngle="90" DetectPassiveRadius="5" WanderBorderRadius="0.1" ChaseType="0" ChaseDistance="0" AttackMoveProbability="0" />
+		<AIParam Id="1" State="IR_FC_NormalChase" DetectActiveRadius="20" DetectActiveAngle="90" DetectPassiveRadius="12" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="40" AttackMoveProbability="50" />
+		<AIParam Id="2" State="IR_FC_RouteSniper" DetectActiveRadius="30" DetectActiveAngle="160" DetectPassiveRadius="5" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="100" AttackMoveProbability="0" />
+		<AIParam Id="3" State="IW_FD_IdiotSniper" DetectActiveRadius="30" DetectActiveAngle="160" DetectPassiveRadius="15" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="100" AttackMoveProbability="0" />
+		<AIParam Id="4" State="IR_FD_WalkingTowerAssualt" DetectActiveRadius="25" DetectActiveAngle="100" DetectPassiveRadius="12" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="100" AttackMoveProbability="0" />
+		<AIParam Id="5" State="IW_FD_TowerAssualt" DetectActiveRadius="20" DetectActiveAngle="120" DetectPassiveRadius="15" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="30" AttackMoveProbability="0" />
+		<AIParam Id="6" State="IR_FD_RouteTowerSniper" DetectActiveRadius="30" DetectActiveAngle="120" DetectPassiveRadius="10" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="50" AttackMoveProbability="0" />
+		<AIParam Id="7" State="IC_FC_Survive_Sniper" DetectActiveRadius="25" DetectActiveAngle="150" DetectPassiveRadius="10" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="500" AttackMoveProbability="0" />
+		<AIParam Id="8" State="IC_FC_Survive_Assualt" DetectActiveRadius="15" DetectActiveAngle="150" DetectPassiveRadius="10" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="500" AttackMoveProbability="0" />
+		<AIParam Id="9" State="IW_FD_IdiotSniper_Level4" DetectActiveRadius="40" DetectActiveAngle="160" DetectPassiveRadius="18" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="100" AttackMoveProbability="0" />
+		<AIParam Id="10" State="IW_FD_TowerAssualt_Level4" DetectActiveRadius="26" DetectActiveAngle="120" DetectPassiveRadius="18" WanderBorderRadius="0.5" ChaseType="0" ChaseDistance="30" AttackMoveProbability="0" />
+	</AIParams>
+	<CrosshairParams>
+		<CrosshairParam Id="0" SizeX="8.0" SizeY="8.0" Time="0.0" MaxChangeScale="1.0" OneShotAdd="0.0" />
+		<CrosshairParam Id="1" SizeX="8.0" SizeY="8.0" Time="0.4" MaxChangeScale="3.0" OneShotAdd="0.8" />
+		<CrosshairParam Id="2" SizeX="10.0" SizeY="7.0" Time="0.6" MaxChangeScale="4.0" OneShotAdd="1.1" />
+		<CrosshairParam Id="3" SizeX="8.0" SizeY="8.0" Time="0.3" MaxChangeScale="3.6" OneShotAdd="0.8" />
+		<CrosshairParam Id="4" SizeX="12.0" SizeY="8.0" Time="0.5" MaxChangeScale="6" OneShotAdd="15.0" />
+		<CrosshairParam Id="5" SizeX="14.0" SizeY="14.0" Time="0.4" MaxChangeScale="4.5" OneShotAdd="40.0" />
+		<CrosshairParam Id="6" SizeX="8.0" SizeY="8.0" Time="1.0" MaxChangeScale="1.0" OneShotAdd="0.0" />
+	</CrosshairParams>
+	<CameraParams>
+		<CameraParam Id="0" Distance="0.20" Angle="40.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="1" Distance="0.15" Angle="45.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="2" Distance="0.15" Angle="45.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="3" Distance="0.15" Angle="45.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="4" Distance="0.05" Angle="38.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="5" Distance="0.75" Angle="13.0" ZoomChangeTime="0.05" />
+		<CameraParam Id="6" Distance="0.05" Angle="35.0" ZoomChangeTime="0.05" />
+	</CameraParams>
+	<Weapons>
+	<Weapon Type="0" Name="W_Wrench_Knife00" UnlockLevel="1" UnlockMoney="1000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponWrench" Animation="Knife" TextName="Wrench" RarityText="TIER  1" Icon="icon_melee_1" Desc="Damage target for 25% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Wrench_Knife00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="5" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponConduit" Animation="Knife" TextName="Conduit" RarityText="TIER  1" Icon="icon_melee_5" Desc="Damage target for 50% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Bayonet_Knife01" UnlockLevel="1" UnlockMoney="1000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponBayonet" Animation="Knife" TextName="Bayonet" RarityText="TIER  1" Icon="icon_melee_2" Desc="Damage target for 25% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Bayonet_Knife01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="5" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponWesternSword" Animation="Knife" TextName="WesternSword" RarityText="TIER  1" Icon="icon_melee_6" Desc="Damage target for 50% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Ka-Bar_Knife02" UnlockLevel="1" UnlockMoney="1000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponKa-Bar" Animation="Knife" TextName="Ka-Bar" RarityText="TIER  1" Icon="icon_melee_3" Desc="Damage target for 25% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Ka-Bar_Knife02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="5" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponBottle" Animation="Knife" TextName="Bottle" RarityText="TIER  1" Icon="icon_melee_7" Desc="Damage target for 50% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Hatchet_Knife03" UnlockLevel="1" UnlockMoney="1000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponHatchet" Animation="Knife" TextName="Hatchet" RarityText="TIER  1" Icon="icon_melee_4" Desc="Damage target for 25% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="0" Name="W_Hatchet_Knife03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="5" AmmoCapacity="1" AmmoAmount="1" AttrDMG="90" AttrRPM="60" AttrACC="50" AttrReload="1" Model="WeaponPot" Animation="Knife" TextName="Pot" RarityText="TIER  1" Icon="icon_melee_8" Desc="Damage target for 50% HP." Wastage="1" FixPrice="1" DurableEffect="1" CrosshairType="A" Crosshair="0" Camera="0"/>
+		<Weapon Type="1" Name="W_Handgun00" UnlockLevel="1" UnlockMoney="1700" UnlockCrystal="-1" AmmoCapacity="7" AmmoAmount="57" AttrDMG="34" AttrRPM="120" AttrACC="55" AttrReload="1" Model="WeaponM1191" Animation="Handgun" TextName="M1191" RarityText="TIER  1" Icon="icon_gun_pistol_1" Desc="DMG      34\nRPM      120\nACC       55\nAMMO  7/50" Wastage="3" FixPrice="250" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="15" AmmoCapacity="11" AmmoAmount="111" AttrDMG="68" AttrRPM="120" AttrACC="58" AttrReload="1" Model="WeaponM1191_tCrystal" Animation="Handgun" TextName="M1191+" RarityText="TIER  1" Icon="icon_gun_pistol_1_tCrystal" Desc="DMG      68\nRPM      132\nACC       58\nAMMO  11/100" Wastage="0" FixPrice="250" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun01" UnlockLevel="5" UnlockMoney="12000" UnlockCrystal="-1" AmmoCapacity="8" AmmoAmount="58" AttrDMG="60" AttrRPM="136" AttrACC="58" AttrReload="0.92" Model="WeaponP7M8" Animation="Handgun" TextName="P7M8" RarityText="TIER  2" Icon="icon_gun_pistol_2" Desc="DMG      60\nRPM      136\nACC       58\nAMMO  8/50" Wastage="3" FixPrice="400" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="35" AmmoCapacity="12" AmmoAmount="122" AttrDMG="120" AttrRPM="136" AttrACC="61" AttrReload="0.92" Model="WeaponP7M8_tCrystal" Animation="Handgun" TextName="P7M8+" RarityText="TIER  2" Icon="icon_gun_pistol_2_tCrystal" Desc="DMG      120\nRPM      150\nACC       61\nAMMO  12/110" Wastage="0" FixPrice="400" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun02" UnlockLevel="15" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="7" AmmoAmount="57" AttrDMG="136" AttrRPM="120" AttrACC="61" AttrReload="0.84" Model="WeaponDesertEagle" Animation="Handgun" TextName="Desert Eagle" RarityText="TIER  3" Icon="icon_gun_pistol_3" Desc="DMG      136\nRPM      120\nACC       61\nAMMO  7/50" Wastage="3" FixPrice="600" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="55" AmmoCapacity="11" AmmoAmount="111" AttrDMG="272" AttrRPM="120" AttrACC="64" AttrReload="0.84" Model="WeaponDesertEagle_tCrystal" Animation="Handgun" TextName="Desert Eagle+" RarityText="TIER  3" Icon="icon_gun_pistol_3_tCrystal" Desc="DMG      272\nRPM      132\nACC       64\nAMMO  11/100" Wastage="0" FixPrice="600" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun03" UnlockLevel="30" UnlockMoney="80000" UnlockCrystal="-1" AmmoCapacity="15" AmmoAmount="115" AttrDMG="127" AttrRPM="260" AttrACC="64" AttrReload="0.6" Model="WeaponM9" Animation="Handgun" TextName="M9" RarityText="TIER  4" Icon="icon_gun_pistol_4" Desc="DMG      127\nRPM      260\nACC       64\nAMMO  15/100" Wastage="3" FixPrice="700" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="75" AmmoCapacity="23" AmmoAmount="233" AttrDMG="254" AttrRPM="260" AttrACC="67" AttrReload="0.6" Model="WeaponM9_tCrystal" Animation="Handgun" TextName="M9+" RarityText="TIER  4" Icon="icon_gun_pistol_4_tCrystal" Desc="DMG      254\nRPM      286\nACC       67\nAMMO  23/210" Wastage="0" FixPrice="700" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun04" UnlockLevel="50" UnlockMoney="320000" UnlockCrystal="-1" AmmoCapacity="18" AmmoAmount="138" AttrDMG="212" AttrRPM="315" AttrACC="70" AttrReload="0.52" Model="WeaponChimera" Animation="Handgun" TextName="Chimera" RarityText="TIER  5" Icon="icon_gun_pistol_5" Desc="DMG      212\nRPM      315\nACC       70\nAMMO  18/120" Wastage="3" FixPrice="800" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="1" Name="W_Handgun04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="95" AmmoCapacity="27" AmmoAmount="277" AttrDMG="424" AttrRPM="315" AttrACC="73" AttrReload="0.52" Model="WeaponChimera_tCrystal" Animation="Handgun" TextName="Chimera+" RarityText="TIER  5" Icon="icon_gun_pistol_5_tCrystal" Desc="DMG      424\nRPM      347\nACC       73\nAMMO  27/250" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="A" Crosshair="1" Camera="1"/>
+		<Weapon Type="2" Name="W_AssaultRifle00" UnlockLevel="1" UnlockMoney="1700" UnlockCrystal="-1" AmmoCapacity="30" AmmoAmount="80" AttrDMG="34" AttrRPM="300" AttrACC="55" AttrReload="1" Model="WeaponAUG" Animation="Rifle" TextName="AUG" RarityText="TIER  1" Icon="icon_gun_rifle_1" Desc="DMG      34\nRPM      300\nACC       55\nAMMO  30/50" Wastage="5" FixPrice="250" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="15" AmmoCapacity="45" AmmoAmount="165" AttrDMG="68" AttrRPM="300" AttrACC="58" AttrReload="1" Model="WeaponAUG_tCrystal" Animation="Rifle" TextName="AUG+" RarityText="TIER  1" Icon="icon_gun_rifle_1_tCrystal" Desc="DMG      68\nRPM      330\nACC       58\nAMMO  45/120" Wastage="0" FixPrice="250" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle01" UnlockLevel="5" UnlockMoney="12000" UnlockCrystal="-1" AmmoCapacity="30" AmmoAmount="90" AttrDMG="62" AttrRPM="333" AttrACC="58" AttrReload="0.8" Model="WeaponM16A1" Animation="Rifle" TextName="M16A1" RarityText="TIER  2" Icon="icon_gun_rifle_2" Desc="DMG      62\nRPM      333\nACC       58\nAMMO  30/60" Wastage="5" FixPrice="400" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="35" AmmoCapacity="45" AmmoAmount="175" AttrDMG="124" AttrRPM="333" AttrACC="61" AttrReload="0.8" Model="WeaponM16A1_tCrystal" Animation="Rifle" TextName="M16A1+" RarityText="TIER  2" Icon="icon_gun_rifle_2_tCrystal" Desc="DMG      124\nRPM      366\nACC       61\nAMMO  45/130" Wastage="0" FixPrice="400" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle02" UnlockLevel="15" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="40" AmmoAmount="100" AttrDMG="109" AttrRPM="375" AttrACC="61" AttrReload="0.6" Model="WeaponAN94" Animation="Rifle" TextName="AN94" RarityText="TIER  3" Icon="icon_gun_rifle_3" Desc="DMG      109\nRPM      375\nACC       61\nAMMO  40/60" Wastage="5" FixPrice="600" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="55" AmmoCapacity="60" AmmoAmount="200" AttrDMG="218" AttrRPM="375" AttrACC="64" AttrReload="0.6" Model="WeaponAN94_tCrystal" Animation="Rifle" TextName="AN94+" RarityText="TIER  3" Icon="icon_gun_rifle_3_tCrystal" Desc="DMG      218\nRPM      413\nACC       64\nAMMO  60/140" Wastage="0" FixPrice="600" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle03" UnlockLevel="30" UnlockMoney="80000" UnlockCrystal="-1" AmmoCapacity="30" AmmoAmount="110" AttrDMG="191" AttrRPM="428" AttrACC="64" AttrReload="1" Model="WeaponAK47" Animation="Rifle" TextName="AK47" RarityText="TIER  4" Icon="icon_gun_rifle_4" Desc="DMG      191\nRPM      428\nACC       64\nAMMO  30/80" Wastage="5" FixPrice="700" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="75" AmmoCapacity="45" AmmoAmount="225" AttrDMG="382" AttrRPM="428" AttrACC="67" AttrReload="1" Model="WeaponAK47_tCrystal" Animation="Rifle" TextName="AK47+" RarityText="TIER  4" Icon="icon_gun_rifle_4_tCrystal" Desc="DMG      382\nRPM      471\nACC       67\nAMMO  45/180" Wastage="0" FixPrice="700" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle04" UnlockLevel="50" UnlockMoney="320000" UnlockCrystal="-1" AmmoCapacity="25" AmmoAmount="135" AttrDMG="327" AttrRPM="500" AttrACC="67" AttrReload="1.2" Model="WeaponScreecherRifle" Animation="Rifle" TextName="Screecher Rifle" RarityText="TIER  5" Icon="icon_gun_rifle_5" Desc="DMG      327\nRPM      500\nACC       67\nAMMO  25/110" Wastage="5" FixPrice="800" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="2" Name="W_AssaultRifle04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="95" AmmoCapacity="38" AmmoAmount="268" AttrDMG="654" AttrRPM="500" AttrACC="70" AttrReload="1.2" Model="WeaponScreecherRifle_tCrystal" Animation="Rifle" TextName="Screecher Rifle+" RarityText="TIER  5" Icon="icon_gun_rifle_5_tCrystal" Desc="DMG      654\nRPM      550\nACC       70\nAMMO  38/230" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="B" Crosshair="2" Camera="2"/>
+		<Weapon Type="4" Name="W_SubmachineGun00" UnlockLevel="1" UnlockMoney="3300" UnlockCrystal="-1" AmmoCapacity="30" AmmoAmount="120" AttrDMG="68" AttrRPM="300" AttrACC="60" AttrReload="1" Model="WeaponMP5" Animation="Rifle" TextName="MP5" RarityText="TIER  1" Icon="icon_gun_smg_1" Desc="DMG      68\nRPM      300\nACC       60\nAMMO  30/90" Wastage="4" FixPrice="500" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="25" AmmoCapacity="45" AmmoAmount="245" AttrDMG="136" AttrRPM="300" AttrACC="63" AttrReload="1" Model="WeaponMP5_tCrystal" Animation="Rifle" TextName="MP5+" RarityText="TIER  1" Icon="icon_gun_smg_1_tCrystal" Desc="DMG      136\nRPM      330\nACC       63\nAMMO  45/200" Wastage="0" FixPrice="500" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun01" UnlockLevel="5" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="50" AmmoAmount="150" AttrDMG="109" AttrRPM="375" AttrACC="63" AttrReload="1.07" Model="WeaponP90" Animation="Rifle" TextName="P90" RarityText="TIER  2" Icon="icon_gun_smg_2" Desc="DMG      109\nRPM      375\nACC       63\nAMMO  50/100" Wastage="4" FixPrice="800" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="45" AmmoCapacity="75" AmmoAmount="305" AttrDMG="218" AttrRPM="375" AttrACC="66" AttrReload="1.07" Model="WeaponP90_tCrystal" Animation="Rifle" TextName="P90+" RarityText="TIER  2" Icon="icon_gun_smg_2_tCrystal" Desc="DMG      218\nRPM      413\nACC       66\nAMMO  75/230" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun02" UnlockLevel="15" UnlockMoney="48000" UnlockCrystal="-1" AmmoCapacity="20" AmmoAmount="200" AttrDMG="164" AttrRPM="500" AttrACC="66" AttrReload="0.8" Model="WeaponViperZ.83" Animation="Rifle" TextName="Viper Z.83" RarityText="TIER  3" Icon="icon_gun_smg_3" Desc="DMG      164\nRPM      500\nACC       66\nAMMO  20/180" Wastage="4" FixPrice="1150" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="65" AmmoCapacity="30" AmmoAmount="400" AttrDMG="328" AttrRPM="500" AttrACC="69" AttrReload="0.8" Model="WeaponViperZ.83_tCrystal" Animation="Rifle" TextName="Viper Z.83+" RarityText="TIER  3" Icon="icon_gun_smg_3_tCrystal" Desc="DMG      328\nRPM      550\nACC       69\nAMMO  30/370" Wastage="0" FixPrice="1150" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun03" UnlockLevel="30" UnlockMoney="160000" UnlockCrystal="-1" AmmoCapacity="32" AmmoAmount="242" AttrDMG="272" AttrRPM="600" AttrACC="69" AttrReload="0.8" Model="WeaponUZi9mm" Animation="Rifle" TextName="UZi9mm" RarityText="TIER  4" Icon="icon_gun_smg_4" Desc="DMG      272\nRPM      600\nACC       69\nAMMO  32/210" Wastage="4" FixPrice="1400" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="85" AmmoCapacity="48" AmmoAmount="478" AttrDMG="544" AttrRPM="600" AttrACC="72" AttrReload="0.8" Model="WeaponUZi9mm_tCrystal" Animation="Rifle" TextName="UZi9mm+" RarityText="TIER  4" Icon="icon_gun_smg_4_tCrystal" Desc="DMG      544\nRPM      660\nACC       72\nAMMO  48/430" Wastage="0" FixPrice="1400" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun04" UnlockLevel="50" UnlockMoney="640000" UnlockCrystal="-1" AmmoCapacity="50" AmmoAmount="300" AttrDMG="436" AttrRPM="750" AttrACC="72" AttrReload="0.7" Model="WeaponUMP" Animation="Rifle" TextName="UMP" RarityText="TIER  5" Icon="icon_gun_smg_5" Desc="DMG      436\nRPM      750\nACC       72\nAMMO  50/250" Wastage="4" FixPrice="1600" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="4" Name="W_SubmachineGun04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="105" AmmoCapacity="75" AmmoAmount="595" AttrDMG="872" AttrRPM="750" AttrACC="75" AttrReload="0.7" Model="WeaponUMP_tCrystal" Animation="Rifle" TextName="UMP+" RarityText="TIER  5" Icon="icon_gun_smg_5_tCrystal" Desc="DMG      872\nRPM      825\nACC       75\nAMMO  75/520" Wastage="0" FixPrice="1600" DurableEffect="1" CrosshairType="B" Crosshair="3" Camera="3"/>
+		<Weapon Type="5" Name="W_Shotgun00" UnlockLevel="1" UnlockMoney="3300" UnlockCrystal="-1" AmmoCapacity="4" AmmoAmount="44" AttrDMG="182" AttrRPM="60" AttrACC="60" AttrReload="1" Model="WeaponM870" Animation="Shotgun" TextName="M870" RarityText="TIER  1" Icon="icon_gun_shot_1" Desc="DMG      182\nRPM      60\nACC       60\nAMMO  4/40" Wastage="6" FixPrice="500" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="25" AmmoCapacity="6" AmmoAmount="86" AttrDMG="364" AttrRPM="60" AttrACC="63" AttrReload="1" Model="WeaponM870_tCrystal" Animation="Shotgun" TextName="M870+" RarityText="TIER  1" Icon="icon_gun_shot_1_tCrystal" Desc="DMG      364\nRPM      66\nACC       63\nAMMO  6/80" Wastage="0" FixPrice="500" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun01" UnlockLevel="5" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="7" AmmoAmount="77" AttrDMG="208" AttrRPM="105" AttrACC="63" AttrReload="1.2" Model="WeaponM1014" Animation="Shotgun" TextName="M1014" RarityText="TIER  2" Icon="icon_gun_shot_2" Desc="DMG      208\nRPM      105\nACC       63\nAMMO  7/70" Wastage="6" FixPrice="800" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="45" AmmoCapacity="11" AmmoAmount="161" AttrDMG="416" AttrRPM="105" AttrACC="66" AttrReload="1.2" Model="WeaponM1014_tCrystal" Animation="Shotgun" TextName="M1014+" RarityText="TIER  2" Icon="icon_gun_shot_2_tCrystal" Desc="DMG      416\nRPM      116\nACC       66\nAMMO  11/150" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun02" UnlockLevel="15" UnlockMoney="48000" UnlockCrystal="-1" AmmoCapacity="8" AmmoAmount="88" AttrDMG="364" AttrRPM="120" AttrACC="66" AttrReload="0.8" Model="WeaponSPAS-12" Animation="Shotgun" TextName="SPAS-12" RarityText="TIER  3" Icon="icon_gun_shot_3" Desc="DMG      364\nRPM      120\nACC       66\nAMMO  8/80" Wastage="6" FixPrice="1150" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="75" AmmoCapacity="12" AmmoAmount="182" AttrDMG="728" AttrRPM="120" AttrACC="69" AttrReload="0.8" Model="WeaponSPAS-12_tCrystal" Animation="Shotgun" TextName="SPAS-12+" RarityText="TIER  3" Icon="icon_gun_shot_3_tCrystal" Desc="DMG      728\nRPM      132\nACC       69\nAMMO  12/170" Wastage="0" FixPrice="1150" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun03" UnlockLevel="30" UnlockMoney="160000" UnlockCrystal="-1" AmmoCapacity="8" AmmoAmount="98" AttrDMG="656" AttrRPM="133" AttrACC="69" AttrReload="1.08" Model="WeaponMPSAA-12" Animation="Shotgun" TextName="MPSAA-12" RarityText="TIER  4" Icon="icon_gun_shot_4" Desc="DMG      656\nRPM      133\nACC       69\nAMMO  8/90" Wastage="6" FixPrice="1400" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="95" AmmoCapacity="12" AmmoAmount="202" AttrDMG="1312" AttrRPM="133" AttrACC="72" AttrReload="1.08" Model="WeaponMPSAA-12_tCrystal" Animation="Shotgun" TextName="MPSAA-12+" RarityText="TIER  4" Icon="icon_gun_shot_4_tCrystal" Desc="DMG      1312\nRPM      146\nACC       72\nAMMO  12/190" Wastage="0" FixPrice="1400" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun04" UnlockLevel="50" UnlockMoney="640000" UnlockCrystal="-1" AmmoCapacity="8" AmmoAmount="108" AttrDMG="1165" AttrRPM="150" AttrACC="72" AttrReload="1" Model="WeaponBrimstoneShotgun" Animation="Shotgun" TextName="Brimstone Shotgun" RarityText="TIER  5" Icon="icon_gun_shot_5" Desc="DMG      1165\nRPM      150\nACC       72\nAMMO  8/100" Wastage="6" FixPrice="1600" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="5" Name="W_Shotgun04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="115" AmmoCapacity="12" AmmoAmount="222" AttrDMG="2330" AttrRPM="150" AttrACC="75" AttrReload="1" Model="WeaponBrimstoneShotgun_tCrystal" Animation="Shotgun" TextName="Brimstone Shotgun+" RarityText="TIER  5" Icon="icon_gun_shot_5_tCrystal" Desc="DMG      2330\nRPM      165\nACC       75\nAMMO  12/210" Wastage="0" FixPrice="1600" DurableEffect="1" CrosshairType="C" Crosshair="4" Camera="4"/>
+		<Weapon Type="6" Name="W_SniperRifle00" UnlockLevel="1" UnlockMoney="3300" UnlockCrystal="-1" AmmoCapacity="5" AmmoAmount="45" AttrDMG="340" AttrRPM="30" AttrACC="85" AttrReload="1" Model="WeaponAVP" Animation="Sniper" TextName="AVP" RarityText="TIER  1" Icon="icon_gun_snipe_1" Desc="DMG      340\nRPM      30\nACC       85\nAMMO  5/40" Wastage="4" FixPrice="500" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="25" AmmoCapacity="8" AmmoAmount="78" AttrDMG="340" AttrRPM="45" AttrACC="88" AttrReload="1" Model="WeaponAVP_tCrystal" Animation="Sniper" TextName="AVP+" RarityText="TIER  1" Icon="icon_gun_snipe_1_tCrystal" Desc="DMG      340\nRPM      45\nACC       88\nAMMO  8/70" Wastage="0" FixPrice="500" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle01" UnlockLevel="5" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="5" AmmoAmount="45" AttrDMG="680" AttrRPM="30" AttrACC="88" AttrReload="0.91" Model="WeaponSSG3000" Animation="Sniper" TextName="SSG3000" RarityText="TIER  2" Icon="icon_gun_snipe_2" Desc="DMG      680\nRPM      30\nACC       88\nAMMO  5/40" Wastage="4" FixPrice="800" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="50" AmmoCapacity="8" AmmoAmount="78" AttrDMG="680" AttrRPM="45" AttrACC="91" AttrReload="0.91" Model="WeaponSSG3000_tCrystal" Animation="Sniper" TextName="SSG3000+" RarityText="TIER  2" Icon="icon_gun_snipe_2_tCrystal" Desc="DMG      680\nRPM      45\nACC       91\nAMMO  8/70" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle02" UnlockLevel="15" UnlockMoney="48000" UnlockCrystal="-1" AmmoCapacity="10" AmmoAmount="40" AttrDMG="1360" AttrRPM="30" AttrACC="91" AttrReload="1" Model="WeaponM82A1" Animation="Sniper" TextName="M82A1" RarityText="TIER  3" Icon="icon_gun_snipe_3" Desc="DMG      1360\nRPM      30\nACC       91\nAMMO  10/30" Wastage="4" FixPrice="1150" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="80" AmmoCapacity="15" AmmoAmount="85" AttrDMG="1360" AttrRPM="45" AttrACC="94" AttrReload="1" Model="WeaponM82A1_tCrystal" Animation="Sniper" TextName="M82A1+" RarityText="TIER  3" Icon="icon_gun_snipe_3_tCrystal" Desc="DMG      1360\nRPM      45\nACC       94\nAMMO  15/70" Wastage="0" FixPrice="1150" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle03" UnlockLevel="30" UnlockMoney="160000" UnlockCrystal="-1" AmmoCapacity="10" AmmoAmount="40" AttrDMG="2720" AttrRPM="30" AttrACC="94" AttrReload="1" Model="WeaponXM109" Animation="Sniper" TextName="XM109" RarityText="TIER  4" Icon="icon_gun_snipe_4" Desc="DMG      2720\nRPM      30\nACC       94\nAMMO  10/30" Wastage="4" FixPrice="1400" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="110" AmmoCapacity="15" AmmoAmount="85" AttrDMG="2720" AttrRPM="45" AttrACC="97" AttrReload="1" Model="WeaponXM109_tCrystal" Animation="Sniper" TextName="XM109+" RarityText="TIER  4" Icon="icon_gun_snipe_4_tCrystal" Desc="DMG      2720\nRPM      45\nACC       97\nAMMO  15/70" Wastage="0" FixPrice="1400" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle04" UnlockLevel="50" UnlockMoney="640000" UnlockCrystal="-1" AmmoCapacity="12" AmmoAmount="42" AttrDMG="5440" AttrRPM="30" AttrACC="97" AttrReload="0.91" Model="WeaponLaserSniperRifle" Animation="Sniper" TextName="Laser Sniper Rifle" RarityText="TIER  5" Icon="icon_gun_snipe_5" Desc="DMG      5440\nRPM      30\nACC       97\nAMMO  12/30" Wastage="4" FixPrice="1600" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="6" Name="W_SniperRifle04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="150" AmmoCapacity="18" AmmoAmount="78" AttrDMG="5440" AttrRPM="45" AttrACC="100" AttrReload="0.91" Model="WeaponLaserSniperRifle_tCrystal" Animation="Sniper" TextName="Laser Sniper Rifle+" RarityText="TIER  5" Icon="icon_gun_snipe_5_tCrystal" Desc="DMG      5440\nRPM      45\nACC       100\nAMMO  18/60" Wastage="0" FixPrice="1600" DurableEffect="1" CrosshairType="A" Crosshair="5" Camera="5"/>
+		<Weapon Type="7" Name="W_RPG00" UnlockLevel="1" UnlockMoney="3300" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="41" AttrDMG="388" AttrRPM="60" AttrACC="55" AttrReload="1" Model="WeaponStandardRPG" Animation="RPG" TextName="Standard RPG" RarityText="TIER  1" Icon="icon_gun_rpg_1" Desc="DMG      388\nRPM      60\nACC       55\nAMMO  1/40" Wastage="7" FixPrice="500" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG00_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="25" AmmoCapacity="2" AmmoAmount="82" AttrDMG="388" AttrRPM="60" AttrACC="58" AttrReload="1" Model="WeaponStandardRPG_tCrystal" Animation="RPG" TextName="Standard RPG+" RarityText="TIER  1" Icon="icon_gun_rpg_1_tCrystal" Desc="DMG      388\nRPM      66\nACC       58\nAMMO  2/80" Wastage="0" FixPrice="500" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG01" UnlockLevel="5" UnlockMoney="24000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="41" AttrDMG="777" AttrRPM="60" AttrACC="58" AttrReload="0.88" Model="WeaponM72A3" Animation="RPG" TextName="M72A3" RarityText="TIER  2" Icon="icon_gun_rpg_2" Desc="DMG      777\nRPM      60\nACC       58\nAMMO  1/40" Wastage="7" FixPrice="800" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG01_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="50" AmmoCapacity="2" AmmoAmount="82" AttrDMG="777" AttrRPM="60" AttrACC="61" AttrReload="0.88" Model="WeaponM72A3_tCrystal" Animation="RPG" TextName="M72A3+" RarityText="TIER  2" Icon="icon_gun_rpg_2_tCrystal" Desc="DMG      777\nRPM      66\nACC       61\nAMMO  2/80" Wastage="0" FixPrice="800" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG02" UnlockLevel="15" UnlockMoney="48000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="41" AttrDMG="1554" AttrRPM="60" AttrACC="61" AttrReload="1.25" Model="WeaponM202" Animation="RPG" TextName="M202" RarityText="TIER  3" Icon="icon_gun_rpg_3" Desc="DMG      1554\nRPM      60\nACC       61\nAMMO  1/40" Wastage="7" FixPrice="1150" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG02_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="100" AmmoCapacity="2" AmmoAmount="82" AttrDMG="1554" AttrRPM="60" AttrACC="64" AttrReload="1.25" Model="WeaponM202_tCrystal" Animation="RPG" TextName="M202+" RarityText="TIER  3" Icon="icon_gun_rpg_3_tCrystal" Desc="DMG      1554\nRPM      66\nACC       64\nAMMO  2/80" Wastage="0" FixPrice="1150" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG03" UnlockLevel="30" UnlockMoney="160000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="41" AttrDMG="3108" AttrRPM="60" AttrACC="64" AttrReload="1" Model="WeaponFIM-92A" Animation="RPG" TextName="FIM-92A" RarityText="TIER  4" Icon="icon_gun_rpg_4" Desc="DMG      3108\nRPM      60\nACC       64\nAMMO  1/40" Wastage="7" FixPrice="1400" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG03_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="150" AmmoCapacity="2" AmmoAmount="82" AttrDMG="3108" AttrRPM="60" AttrACC="67" AttrReload="1" Model="WeaponFIM-92A_tCrystal" Animation="RPG" TextName="FIM-92A+" RarityText="TIER  4" Icon="icon_gun_rpg_4_tCrystal" Desc="DMG      3108\nRPM      66\nACC       67\nAMMO  2/80" Wastage="0" FixPrice="1400" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG04" UnlockLevel="50" UnlockMoney="640000" UnlockCrystal="-1" AmmoCapacity="1" AmmoAmount="41" AttrDMG="6217" AttrRPM="60" AttrACC="67" AttrReload="0.7" Model="WeaponHunterMissile" Animation="RPG" TextName="Hunter Missile" RarityText="TIER  5" Icon="icon_gun_rpg_5" Desc="DMG      6217\nRPM      60\nACC       67\nAMMO  1/40" Wastage="7" FixPrice="1600" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+		<Weapon Type="7" Name="W_RPG04_tCrystal" UnlockLevel="1" UnlockMoney="-1" UnlockCrystal="200" AmmoCapacity="2" AmmoAmount="82" AttrDMG="6217" AttrRPM="60" AttrACC="70" AttrReload="0.7" Model="WeaponHunterMissile_tCrystal" Animation="RPG" TextName="Hunter Missile+" RarityText="TIER  5" Icon="icon_gun_rpg_5_tCrystal" Desc="DMG      6217\nRPM      66\nACC       70\nAMMO  2/80" Wastage="0" FixPrice="1600" DurableEffect="1" CrosshairType="D" Crosshair="6" Camera="6"/>
+	
+	</Weapons>
+	<Armors>
+		<Armor Type="15" Name="A_V01" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="-1" BuyCrystal="99" BuyAmount="1" TextName="Replishots" RarityText="Tier 0" Icon="icon_item_16" Desc="Go wild with infinite ammo! " Param1="1" Param2="-1" Param3="-1"/>
+		<Armor Type="16" Name="A_V02" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="-1" BuyCrystal="99" BuyAmount="1" TextName="Rest Vest" RarityText="Tier 0" Icon="icon_item_10" Desc="Shorten time to start recovering HP \nby 80%. Increase HP regen by 25% \nwhile not fighting. " Param1="0.8" Param2="0.25" Param3="-1"/>
+		<Armor Type="2" Name="A_C04" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="1200" BuyCrystal="0" BuyAmount="1" TextName="Nanoflex Helmet" RarityText="Tier 0" Icon="icon_boost_1" Desc="-5% damage received " Param1="0.05" Param2="-1" Param3="-1"/>
+		<Armor Type="2" Name="A_C05" UnlockLevel="21" UnlockMoney="0" UnlockCrystal="0" BuyMoney="20000" BuyCrystal="0" BuyAmount="1" TextName="Nanoflex Helmet+" RarityText="Tier 0" Icon="icon_boost_27" Desc="-15% damage received " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="5" Name="A_W00" UnlockLevel="4" UnlockMoney="0" UnlockCrystal="0" BuyMoney="4400" BuyCrystal="0" BuyAmount="1" TextName="zTrak Goggles" RarityText="Tier 0" Icon="icon_boost_13" Desc="+10% accuracy " Param1="0.05" Param2="-1" Param3="-1"/>
+		<Armor Type="5" Name="A_W01" UnlockLevel="23" UnlockMoney="0" UnlockCrystal="0" BuyMoney="30000" BuyCrystal="0" BuyAmount="1" TextName="zTrak Goggles+" RarityText="Tier 0" Icon="icon_boost_23" Desc="+20% accuracy " Param1="0.105" Param2="-1" Param3="-1"/>
+		<Armor Type="1" Name="A_C00" UnlockLevel="6" UnlockMoney="0" UnlockCrystal="0" BuyMoney="8000" BuyCrystal="0" BuyAmount="1" TextName="Muscle Vest" RarityText="Tier 0" Icon="icon_boost_19" Desc="+20% max HP " Param1="0.2" Param2="-1" Param3="-1"/>
+		<Armor Type="1" Name="A_C01" UnlockLevel="26" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="Muscle Vest+" RarityText="Tier 0" Icon="icon_boost_40" Desc="+50% max HP " Param1="0.5" Param2="-1" Param3="-1"/>
+		<Armor Type="4" Name="A_C02" UnlockLevel="7" UnlockMoney="0" UnlockCrystal="0" BuyMoney="8000" BuyCrystal="0" BuyAmount="1" TextName="ElectroTread" RarityText="Tier 0" Icon="icon_boost_14" Desc="+10% movement speed " Param1="0.1" Param2="-1" Param3="-1"/>
+		<Armor Type="4" Name="A_C03" UnlockLevel="27" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="ElectroTread+" RarityText="Tier 0" Icon="icon_boost_38" Desc="+20% movement speed " Param1="0.2" Param2="-1" Param3="-1"/>
+		<Armor Type="6" Name="A_W02" UnlockLevel="9" UnlockMoney="0" UnlockCrystal="0" BuyMoney="10000" BuyCrystal="0" BuyAmount="1" TextName="zSnipe Goggles" RarityText="Tier 0" Icon="icon_boost_24" Desc="+5% damage " Param1="0.05" Param2="-1" Param3="-1"/>
+		<Armor Type="6" Name="A_W03" UnlockLevel="29" UnlockMoney="0" UnlockCrystal="0" BuyMoney="50000" BuyCrystal="0" BuyAmount="1" TextName="zSnipe Goggles+&#xA;" RarityText="Tier 0" Icon="icon_boost_42" Desc="+10% damage " Param1="0.1" Param2="-1" Param3="-1"/>
+		<Armor Type="3" Name="A_C06" UnlockLevel="17" UnlockMoney="0" UnlockCrystal="0" BuyMoney="18000" BuyCrystal="0" BuyAmount="1" TextName="Biovest" RarityText="Tier 0" Icon="icon_boost_20" Desc="Increases HP regen by 30%. " Param1="0.3" Param2="-1" Param3="-1"/>
+		<Armor Type="3" Name="A_C07" UnlockLevel="37" UnlockMoney="0" UnlockCrystal="0" BuyMoney="80000" BuyCrystal="0" BuyAmount="1" TextName="Biovest+" RarityText="Tier 0" Icon="icon_boost_41" Desc="Increases HP regen by 60%. " Param1="0.6" Param2="-1" Param3="-1"/>
+		<Armor Type="6" Name="A_W18" UnlockLevel="41" UnlockMoney="0" UnlockCrystal="0" BuyMoney="100000" BuyCrystal="0" BuyAmount="1" TextName="MaxMuscle Vest" RarityText="Tier 0" Icon="icon_boost_18" Desc="+15% damage. " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="6" Name="A_W19" UnlockLevel="47" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="MaxMuscle Vest+" RarityText="Tier 0" Icon="icon_boost_39" Desc="+20% damage. " Param1="0.2" Param2="-1" Param3="-1"/>
+		<Armor Type="14" Name="A_O02" UnlockLevel="43" UnlockMoney="0" UnlockCrystal="0" BuyMoney="100000" BuyCrystal="0" BuyAmount="1" TextName="Nanobot Serum" RarityText="Tier 0" Icon="icon_boost_11" Desc="+33% health restored by items " Param1="0.33" Param2="-1" Param3="-1"/>
+		<Armor Type="14" Name="A_O03" UnlockLevel="49" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="Nanobot Serum+" RarityText="Tier 0" Icon="icon_boost_35" Desc="+50% health restored by items " Param1="0.5" Param2="-1" Param3="-1"/>
+		<Armor Type="8" Name="A_W24" UnlockLevel="15" UnlockMoney="0" UnlockCrystal="0" BuyMoney="12000" BuyCrystal="0" BuyAmount="1" TextName="Warrior Gloves" RarityText="Tier 0" Icon="icon_boost_4" Desc="+40% Attack SPEED (melee only) " Param1="0.4" Param2="-1" Param3="-1"/>
+		<Armor Type="8" Name="A_W25" UnlockLevel="35" UnlockMoney="0" UnlockCrystal="0" BuyMoney="60000" BuyCrystal="0" BuyAmount="1" TextName="Warrior Gloves+" RarityText="Tier 0" Icon="icon_boost_29" Desc="+80% Attack SPEED (melee only) " Param1="0.8" Param2="-1" Param3="-1"/>
+		<Armor Type="9" Name="A_W06" UnlockLevel="15" UnlockMoney="0" UnlockCrystal="0" BuyMoney="12000" BuyCrystal="0" BuyAmount="1" TextName="EM Barrel" RarityText="Tier 0" Icon="icon_boost_6" Desc="+15% damage (pistol only) " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="9" Name="A_W07" UnlockLevel="35" UnlockMoney="0" UnlockCrystal="0" BuyMoney="60000" BuyCrystal="0" BuyAmount="1" TextName="EM Barrel+" RarityText="Tier 0" Icon="icon_boost_30" Desc="+30% damage (pistol only) " Param1="0.3" Param2="-1" Param3="-1"/>
+		<Armor Type="10" Name="A_W08" UnlockLevel="15" UnlockMoney="0" UnlockCrystal="0" BuyMoney="12000" BuyCrystal="0" BuyAmount="1" TextName="Stabilizer" RarityText="Tier 0" Icon="icon_boost_12" Desc="+20% accuracy (rifle only) " Param1="0.105" Param2="-1" Param3="-1"/>
+		<Armor Type="10" Name="A_W09" UnlockLevel="35" UnlockMoney="0" UnlockCrystal="0" BuyMoney="60000" BuyCrystal="0" BuyAmount="1" TextName="Stabilizer+" RarityText="Tier 0" Icon="icon_boost_36" Desc="+40% accuracy (rifle only) " Param1="0.225" Param2="-1" Param3="-1"/>
+		<Armor Type="11" Name="A_W10" UnlockLevel="25" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="Extended Mags" RarityText="Tier 0" Icon="icon_boost_3" Desc="+15% ammo (SMG only) " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="11" Name="A_W11" UnlockLevel="45" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="Extended Mags+" RarityText="Tier 0" Icon="icon_boost_28" Desc="+30% ammo (SMG only) " Param1="0.3" Param2="-1" Param3="-1"/>
+		<Armor Type="12" Name="A_W12" UnlockLevel="25" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="Venom Muzzle" RarityText="Tier 0" Icon="icon_boost_10" Desc="+13% damage (shotgun only) " Param1="0.13" Param2="-1" Param3="-1"/>
+		<Armor Type="12" Name="A_W13" UnlockLevel="45" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="Venom Muzzle+" RarityText="Tier 0" Icon="icon_boost_34" Desc="+25% damage (shotgun only) " Param1="0.25" Param2="-1" Param3="-1"/>
+		<Armor Type="13" Name="A_W14" UnlockLevel="25" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="Laser Scope" RarityText="Tier 0" Icon="icon_boost_8" Desc="+15% splash radius (RPG only) " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="13" Name="A_W15" UnlockLevel="45" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="Laser Scope+" RarityText="Tier 0" Icon="icon_boost_32" Desc="+30% splash radius (RPG only) " Param1="0.3" Param2="-1" Param3="-1"/>
+		<Armor Type="7" Name="A_W16" UnlockLevel="25" UnlockMoney="0" UnlockCrystal="0" BuyMoney="40000" BuyCrystal="0" BuyAmount="1" TextName="EM Barrel" RarityText="Tier 0" Icon="icon_boost_7" Desc="+15% RPM (sniper rifle only) " Param1="0.15" Param2="-1" Param3="-1"/>
+		<Armor Type="7" Name="A_W17" UnlockLevel="45" UnlockMoney="0" UnlockCrystal="0" BuyMoney="140000" BuyCrystal="0" BuyAmount="1" TextName="EM Barrel+" RarityText="Tier 0" Icon="icon_boost_31" Desc="+30% RPM (sniper rifle only) " Param1="0.3" Param2="-1" Param3="-1"/>
+	</Armors>
+	<Items>
+		<Item Type="8" Name="I_Item23" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="10000" BuyCrystal="-1" BuyAmount="10" TextName="Grenade" RarityText="Tier 0" Icon="icon_item_23" Desc="Deal damage to enemies in range." Param1="-1" Param2="-1"/>
+		<Item Type="6" Name="I_Item15" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="-1" BuyCrystal="10" BuyAmount="10" TextName="Hypershell" RarityText="Tier 0" Icon="icon_item_15" Desc="Become invulnerable to all damage \nfor 15 seconds (not usable in Online \nmode). " Param1="1" Param2="15"/>
+		<Item Type="7" Name="I_Item16" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="-1" BuyCrystal="10" BuyAmount="10" TextName="CardioShock" RarityText="Tier 0" Icon="icon_item_5" Desc="Bring yourself back to life once \n(not usable in Online mode). " Param1="1" Param2="-1"/>
+		<Item Type="1" Name="I_Item00" UnlockLevel="1" UnlockMoney="0" UnlockCrystal="0" BuyMoney="1500" BuyCrystal="-1" BuyAmount="3" TextName="BattleBar" RarityText="Tier 0" Icon="icon_item_1" Desc="+25% HP " Param1="0.25" Param2="-1"/>
+		<Item Type="1" Name="I_Item01" UnlockLevel="21" UnlockMoney="0" UnlockCrystal="0" BuyMoney="3800" BuyCrystal="-1" BuyAmount="3" TextName="BattleBar+" RarityText="Tier 0" Icon="icon_item_19" Desc="+50% HP " Param1="0.5" Param2="-1"/>
+		<Item Type="2" Name="I_Item02" UnlockLevel="5" UnlockMoney="0" UnlockCrystal="0" BuyMoney="2500" BuyCrystal="-1" BuyAmount="3" TextName="ATP Serum" RarityText="Tier 0" Icon="icon_item_4" Desc="+20% movement speed for 15 \nseconds. " Param1="0.2" Param2="15"/>
+		<Item Type="2" Name="I_Item03" UnlockLevel="33" UnlockMoney="0" UnlockCrystal="0" BuyMoney="4400" BuyCrystal="-1" BuyAmount="3" TextName="ATP Serum+" RarityText="Tier 0" Icon="icon_item_20" Desc="+40% movement speed for 15 \nseconds. " Param1="0.4" Param2="15"/>
+		<Item Type="3" Name="I_Item08" UnlockLevel="18" UnlockMoney="0" UnlockCrystal="0" BuyMoney="3700" BuyCrystal="-1" BuyAmount="3" TextName="Carbide Ammo" RarityText="Tier 0" Icon="icon_item_7" Desc="Increase damage by 15% for 25 \nseconds. " Param1="0.15" Param2="25"/>
+		<Item Type="3" Name="I_Item09" UnlockLevel="38" UnlockMoney="0" UnlockCrystal="0" BuyMoney="4600" BuyCrystal="-1" BuyAmount="3" TextName="Carbide Ammo+" RarityText="Tier 0" Icon="icon_item_21" Desc="Increase damage by 30% for 25 \nseconds. " Param1="0.3" Param2="25"/>
+		<Item Type="4" Name="I_Item10" UnlockLevel="19" UnlockMoney="0" UnlockCrystal="0" BuyMoney="3700" BuyCrystal="-1" BuyAmount="3" TextName="Nanoflex Shield" RarityText="Tier 0" Icon="icon_item_17" Desc="Reduce damage taken by 30% for \n10 seconds. " Param1="0.3" Param2="10"/>
+		<Item Type="4" Name="I_Item11" UnlockLevel="39" UnlockMoney="0" UnlockCrystal="0" BuyMoney="4600" BuyCrystal="-1" BuyAmount="3" TextName="Nanoflex Shield+" RarityText="Tier 0" Icon="icon_item_22" Desc="Reduce damage taken by 60% for \n10 seconds. " Param1="0.6" Param2="10"/>
+	</Items>
+	<Medals>
+		<Medal Index="1" Id="1" DesignId="1" Name="First Blood" ConditionName="KillCount" ConditionPara="1" IconName="medal_1" Desc="First Blood\n\nKill your first opponent." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="2" Id="2" DesignId="3" Name="Too Young" ConditionName="DeathCount" ConditionPara="1" IconName="medal_4" Desc="Too Young\n\nSuffer your first death." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="3" Id="4" DesignId="9" Name="Gun License" ConditionName="BuyWeaponCount" ConditionPara="1" IconName="medal_5" Desc="Gun License\n\nBuy your first weapon." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="4" Id="5" DesignId="11" Name="Covering Up" ConditionName="BuyArmorCount" ConditionPara="1" IconName="medal_6" Desc="Covering Up\n\nBuy your first gear." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="5" Id="3" DesignId="5" Name="Boom!" ConditionName="HeadshotCount" ConditionPara="1" IconName="medal_3" Desc="Boom!\n\nGet your first headshot." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="6" Id="6" DesignId="15" Name="Advanced Tactics" ConditionName="UseItemCount" ConditionPara="1" IconName="medal_8" Desc="Advanced Tactics\n\nUse your first item." GameCenterScore="5" RewardMoney="200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="7" Id="7" DesignId="27" Name="Expendable" ConditionName="TaskCount" ConditionPara="10" IconName="medal_14" Desc="Expendable\n\nFinish 10 side missions." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="8" Id="10" DesignId="63" Name="Melee Maniac" ConditionName="MeleeKillCount" ConditionPara="60" IconName="medal_41" Desc="Melee Maniac\n\nGet 60 melee frags." GameCenterScore="0" RewardMoney="1029" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="9" Id="8" DesignId="28" Name="Dependable" ConditionName="TaskCount" ConditionPara="40" IconName="medal_15" Desc="Dependable\n\nFinish 40 side missions." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="10" Id="11" DesignId="64" Name="Melee Fanatic" ConditionName="MeleeKillCount" ConditionPara="250" IconName="medal_42" Desc="Melee Fanatic\n\nGet 250 melee frags." GameCenterScore="15" RewardMoney="2143" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="11" Id="9" DesignId="29" Name="Indomitable" ConditionName="TaskCount" ConditionPara="100" IconName="medal_16" Desc="Indomitable\n\nFinish 100 side missions." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="12" Id="12" DesignId="65" Name="Melee Fiend" ConditionName="MeleeKillCount" ConditionPara="630" IconName="medal_43" Desc="Melee Fiend\n\nGet 630 melee frags." GameCenterScore="0" RewardMoney="4600" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="13" Id="13" DesignId="31" Name="Pistol Maniac" ConditionName="PistolKillCount" ConditionPara="125" IconName="medal_17" Desc="Pistol Maniac\n\nGet 125 pistol frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="14" Id="16" DesignId="35" Name="Rifle Maniac" ConditionName="RifleKillCount" ConditionPara="200" IconName="medal_20" Desc="Rifle Maniac\n\nGet 200 rifle frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="15" Id="14" DesignId="32" Name="Pistol Fanatic" ConditionName="PistolKillCount" ConditionPara="500" IconName="medal_18" Desc="Pistol Fanatic\n\nGet 500 pistol frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="16" Id="17" DesignId="36" Name="Rifle Fanatic" ConditionName="RifleKillCount" ConditionPara="800" IconName="medal_21" Desc="Rifle Fanatic\n\nGet 800 rifle frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="17" Id="15" DesignId="33" Name="Pistol Fiend" ConditionName="PistolKillCount" ConditionPara="1250" IconName="medal_19" Desc="Pistol Fiend\n\nGet 1250 pistol frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="18" Id="18" DesignId="37" Name="Rifle Fiend" ConditionName="RifleKillCount" ConditionPara="2000" IconName="medal_22" Desc="Rifle Fiend\n\nGet 2000 rifle frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="19" Id="19" DesignId="39" Name="Shotgun Maniac" ConditionName="ShotgunKillCount" ConditionPara="250" IconName="medal_23" Desc="Shotgun Maniac\n\nGet 250 shotgun frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="20" Id="22" DesignId="43" Name="SMG Maniac" ConditionName="SMGKillCount" ConditionPara="250" IconName="medal_26" Desc="SMG Maniac\n\nGet 250 submachine gun frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="21" Id="20" DesignId="40" Name="Shotgun Fanatic" ConditionName="ShotgunKillCount" ConditionPara="1000" IconName="medal_24" Desc="Shotgun Fanatic\n\nGet 1000 shotgun frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="22" Id="23" DesignId="44" Name="SMG Fanatic" ConditionName="SMGKillCount" ConditionPara="1000" IconName="medal_27" Desc="SMG Fanatic\n\nGet 1000 submachine gun frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="23" Id="21" DesignId="41" Name="Shotgun Fiend" ConditionName="ShotgunKillCount" ConditionPara="2500" IconName="medal_25" Desc="Shotgun Fiend\n\nGet 2500 shotgun frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="24" Id="24" DesignId="45" Name="SMG Fiend" ConditionName="SMGKillCount" ConditionPara="2500" IconName="medal_28" Desc="SMG Fiend\n\nGet 2500 submachine gun frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="25" Id="25" DesignId="47" Name="Sniper Maniac" ConditionName="SniperKillCount" ConditionPara="250" IconName="medal_29" Desc="Sniper Maniac\n\nGet 250 sniper frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="26" Id="28" DesignId="51" Name="Rocket Maniac" ConditionName="RocketKillCount" ConditionPara="250" IconName="medal_32" Desc="Rocket Maniac\n\nGet 250 rocket launcher frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="27" Id="26" DesignId="48" Name="Sniper Fanatic" ConditionName="SniperKillCount" ConditionPara="1000" IconName="medal_30" Desc="Sniper Fanatic\n\nGet 1000 sniper frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="28" Id="29" DesignId="52" Name="Rocket Fanatic" ConditionName="RocketKillCount" ConditionPara="1000" IconName="medal_33" Desc="Rocket Fanatic\n\nGet 1000 rocket launcher frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="29" Id="27" DesignId="49" Name="Sniper Fiend" ConditionName="SniperKillCount" ConditionPara="2500" IconName="medal_31" Desc="Sniper Fiend\n\nGet 2500 sniper frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="30" Id="30" DesignId="53" Name="Rocket Fiend" ConditionName="RocketKillCount" ConditionPara="2500" IconName="medal_34" Desc="Rocket Fiend\n\nGet 2500 rocket launcher frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="31" Id="58" DesignId="67" Name="Scout Killer" ConditionName="KillScoutCount" ConditionPara="100" IconName="medal_44" Desc="Scout Killer\n\nFrag 100 Scouts." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="32" Id="61" DesignId="71" Name="Commando Killer" ConditionName="KillCommandoCount" ConditionPara="100" IconName="medal_50" Desc="Commando Killer\n\nFrag 100 Commandos." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="33" Id="59" DesignId="68" Name="Scout Hunter" ConditionName="KillScoutCount" ConditionPara="300" IconName="medal_45" Desc="Scout Hunter\n\nFrag 300 Scouts." GameCenterScore="10" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="34" Id="62" DesignId="72" Name="Commando Hunter" ConditionName="KillCommandoCount" ConditionPara="300" IconName="medal_51" Desc="Commando Hunter\n\nFrag 300 Commandos." GameCenterScore="10" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="35" Id="60" DesignId="69" Name="Scout Slayer" ConditionName="KillScoutCount" ConditionPara="1500" IconName="medal_46" Desc="Scout Slayer\n\nFrag 1500 Scouts." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="36" Id="63" DesignId="73" Name="Commando Slayer" ConditionName="KillCommandoCount" ConditionPara="1500" IconName="medal_52" Desc="Commando Slayer\n\nFrag 1500 Commandos." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="37" Id="64" DesignId="75" Name="Raider Killer" ConditionName="KillRaiderCount" ConditionPara="100" IconName="medal_47" Desc="Raider Killer\n\nFrag 100 Raiders." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="38" Id="67" DesignId="79" Name="Sniper Killer" ConditionName="KillSniperCount" ConditionPara="100" IconName="medal_53" Desc="Sniper Killer\n\nFrag 100 Snipers." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="39" Id="65" DesignId="76" Name="Raider Hunter" ConditionName="KillRaiderCount" ConditionPara="300" IconName="medal_48" Desc="Raider Hunter\n\nFrag 300 Raiders." GameCenterScore="10" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="40" Id="68" DesignId="80" Name="Sniper Hunter" ConditionName="KillSniperCount" ConditionPara="300" IconName="medal_54" Desc="Sniper Hunter\n\nFrag 300 Snipers." GameCenterScore="10" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="41" Id="66" DesignId="77" Name="Raider Slayer" ConditionName="KillRaiderCount" ConditionPara="1500" IconName="medal_49" Desc="Raider Slayer\n\nFrag 1500 Raiders." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="42" Id="69" DesignId="81" Name="Sniper Slayer" ConditionName="KillSniperCount" ConditionPara="1500" IconName="medal_55" Desc="Sniper Slayer\n\nFrag 1500 Snipers." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="43" Id="31" DesignId="83" Name="Passing Time" ConditionName="TimeCount" ConditionPara="3600" IconName="medal_56" Desc="Passing Time\n\nPlay for 1 hours." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="44" Id="34" DesignId="87" Name="Weekend Warrior" ConditionName="BattlesCount" ConditionPara="20" IconName="medal_59" Desc="Weekend Warrior\n\nComplete 20 battles." GameCenterScore="0" RewardMoney="2379" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="45" Id="32" DesignId="84" Name="Enthralled" ConditionName="TimeCount" ConditionPara="18000" IconName="medal_57" Desc="Enthralled\n\nPlay for 5 hours." GameCenterScore="20" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="46" Id="35" DesignId="88" Name="Hardened Veteran" ConditionName="BattlesCount" ConditionPara="100" IconName="medal_60" Desc="Hardened Veteran\n\nComplete 100 battles." GameCenterScore="20" RewardMoney="4843" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="47" Id="33" DesignId="85" Name="You Need Help" ConditionName="TimeCount" ConditionPara="90000" IconName="medal_58" Desc="You Need Help\n\nPlay for 25 hours." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="48" Id="36" DesignId="89" Name="War Hero" ConditionName="BattlesCount" ConditionPara="500" IconName="medal_61" Desc="War Hero\n\nComplete 500 battles." GameCenterScore="0" RewardMoney="11950" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="49" Id="37" DesignId="91" Name="Gun Enthusiast" ConditionName="BuyWeaponCount" ConditionPara="8" IconName="medal_62" Desc="Gun Enthusiast\n\nBuy 8 weapons." GameCenterScore="0" RewardMoney="3729" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="50" Id="40" DesignId="95" Name="Gear Enthusiast" ConditionName="BuyArmorCount" ConditionPara="5" IconName="medal_65" Desc="Gear Enthusiast\n\nBuy 5 pieces of armor." GameCenterScore="0" RewardMoney="3729" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="51" Id="38" DesignId="92" Name="Gun Connoisseur" ConditionName="BuyWeaponCount" ConditionPara="20" IconName="medal_63" Desc="Gun Connoisseur\n\nBuy 20 weapons." GameCenterScore="20" RewardMoney="7543" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="52" Id="41" DesignId="96" Name="Gear Connoisseur" ConditionName="BuyArmorCount" ConditionPara="15" IconName="medal_66" Desc="Gear Connoisseur\n\nBuy 15 pieces of armor." GameCenterScore="20" RewardMoney="7543" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="53" Id="39" DesignId="93" Name="Gun Nut" ConditionName="BuyWeaponCount" ConditionPara="50" IconName="medal_64" Desc="Gun Nut\n\nBuy 50 weapons." GameCenterScore="0" RewardMoney="18700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="54" Id="42" DesignId="97" Name="Gear Nut" ConditionName="BuyArmorCount" ConditionPara="30" IconName="medal_67" Desc="Gear Nut\n\nBuy 30 pieces of armor." GameCenterScore="0" RewardMoney="18700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="55" Id="43" DesignId="99" Name="Item Enthusiast" ConditionName="BuyItemCount" ConditionPara="3" IconName="medal_68" Desc="Item Enthusiast\n\nBuy 3 items." GameCenterScore="0" RewardMoney="3729" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="56" Id="46" DesignId="103" Name="Resourceful" ConditionName="UseItemCount" ConditionPara="30" IconName="medal_71" Desc="Resourceful\n\nUse 30 total items." GameCenterScore="0" RewardMoney="3729" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="57" Id="44" DesignId="100" Name="Item Connoisseur" ConditionName="BuyItemCount" ConditionPara="6" IconName="medal_69" Desc="Item Connoisseur\n\nBuy 6 items." GameCenterScore="10" RewardMoney="7543" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="58" Id="47" DesignId="104" Name="Bag of Tricks" ConditionName="UseItemCount" ConditionPara="150" IconName="medal_72" Desc="Bag of Tricks\n\nUse 150 total items." GameCenterScore="25" RewardMoney="7543" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="59" Id="45" DesignId="101" Name="Item Nut" ConditionName="BuyItemCount" ConditionPara="10" IconName="medal_70" Desc="Item Nut\n\nBuy 10 items." GameCenterScore="0" RewardMoney="18700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="60" Id="48" DesignId="105" Name="Master Tactician" ConditionName="UseItemCount" ConditionPara="750" IconName="medal_73" Desc="Master Tactician\n\nUse 750 total items." GameCenterScore="0" RewardMoney="18700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="61" Id="49" DesignId="107" Name="Rampage" ConditionName="KillCount" ConditionPara="500" IconName="medal_80" Desc="Rampage\n\nGet 500 total frags." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="62" Id="55" DesignId="119" Name="Tenderfoot" ConditionName="DeathCount" ConditionPara="25" IconName="medal_87" Desc="Tenderfoot\n\nDie 25 times." GameCenterScore="0" RewardMoney="1029" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="63" Id="50" DesignId="108" Name="Unstoppable" ConditionName="KillCount" ConditionPara="1500" IconName="medal_81" Desc="Unstoppable\n\nGet 1500 total frags." GameCenterScore="15" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="64" Id="56" DesignId="120" Name="Greenhorn" ConditionName="DeathCount" ConditionPara="100" IconName="medal_83" Desc="Greenhorn\n\nDie 100 times." GameCenterScore="15" RewardMoney="2143" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="65" Id="51" DesignId="109" Name="Godlike" ConditionName="KillCount" ConditionPara="7500" IconName="medal_82" Desc="Godlike\n\nGet 7500 total frags." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="66" Id="57" DesignId="121" Name="Noobzilla" ConditionName="DeathCount" ConditionPara="300" IconName="medal_85" Desc="Noobzilla\n\nDie 300 times." GameCenterScore="0" RewardMoney="5200" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="67" Id="52" DesignId="127" Name="Ammo Maniac" ConditionName="BulletCount" ConditionPara="3000" IconName="medal_89" Desc="Ammo Maniac\n\nFire 3000 total bullets." GameCenterScore="0" RewardMoney="3729" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="68" Id="70" DesignId="115" Name="Crack Shot" ConditionName="HeadshotCount" ConditionPara="100" IconName="medal_84" Desc="Crack Shot\n\nGet 100 headshots." GameCenterScore="0" RewardMoney="1929" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="69" Id="53" DesignId="128" Name="Ammo Fanatic" ConditionName="BulletCount" ConditionPara="15000" IconName="medal_90" Desc="Ammo Fanatic\n\nFire 15000 total bullets." GameCenterScore="25" RewardMoney="7543" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="70" Id="71" DesignId="116" Name="Marksman" ConditionName="HeadshotCount" ConditionPara="300" IconName="medal_88" Desc="Marksman\n\nGet 300 headshots." GameCenterScore="25" RewardMoney="3943" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="71" Id="54" DesignId="129" Name="Ammo Fiend" ConditionName="BulletCount" ConditionPara="60000" IconName="medal_91" Desc="Ammo Fiend\n\nFire 60000 total bullets." GameCenterScore="0" RewardMoney="18700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+		<Medal Index="72" Id="72" DesignId="117" Name="Headhunter" ConditionName="HeadshotCount" ConditionPara="1500" IconName="medal_86" Desc="Headhunter\n\nGet 1500 headshots." GameCenterScore="0" RewardMoney="9700" RewardExp="-1" RewardCrystal="-1" RewardDesc="-1"/>
+	</Medals>
+	<DropItems>
+		<DropItem Type="MissionGoal" Name="MissionGoal01" TriggerRadius="2.0" Param1="-1" Param2="-1" Param3="-1" Model="TreasureBox" />
+		<DropItem Type="AddBullet" Name="BulletBag01" TriggerRadius="2.0" Param1="2" Param2="-1" Param3="-1" Model="BulletBag" />
+		<DropItem Type="AddExp" Name="Exp01" TriggerRadius="2.0" Param1="-1" Param2="-1" Param3="-1" Model="Medal" />
+		<DropItem Type="RecoverHp" Name="MedicalBig" TriggerRadius="2.0" Param1="0.5" Param2="-1" Param3="-1" Model="MedicalBig" />
+		<DropItem Type="RecoverHp" Name="MedicalSmall" TriggerRadius="2.0" Param1="0.25" Param2="-1" Param3="-1" Model="MedicalSmall" />
+		<DropItem Type="AddMoney" Name="Money01" TriggerRadius="2.0" Param1="-1" Param2="-1" Param3="-1" Model="Money" />
+		<DropItem Type="AddBullet" Name="BulletBagweb" TriggerRadius="2.0" Param1="2" Param2="-1" Param3="-1" Model="BulletBag" />
+		<DropItem Type="AddExp" Name="Expweb" TriggerRadius="2.0" Param1="-1" Param2="-1" Param3="-1" Model="Medal" />
+		<DropItem Type="RecoverHp" Name="MedicalBigweb" TriggerRadius="2.0" Param1="0.5" Param2="-1" Param3="-1" Model="MedicalBig" />
+		<DropItem Type="RecoverHp" Name="MedicalSmallweb" TriggerRadius="2.0" Param1="0.25" Param2="-1" Param3="-1" Model="MedicalSmall" />
+		<DropItem Type="AddMoney" Name="Moneyweb" TriggerRadius="2.0" Param1="-1" Param2="-1" Param3="-1" Model="Money" />
+	</DropItems>
+</Conf>

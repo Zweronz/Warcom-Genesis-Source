@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1694496607514266}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1694496607514266
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4633906948873317}
+  - 82: {fileID: 82905833517002871}
+  - 114: {fileID: 114908170593752346}
+  - 165: {fileID: 165223046827336189}
+  m_Layer: 0
+  m_Name: weapon_knife_whoosh01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4633906948873317
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694496607514266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29, y: 1.14, z: 0.506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!82 &82905833517002871
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694496607514266}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.7
+  m_Pitch: 1.3
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 4
+  MaxDistance: 15
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.24832807
+      value: 1
+      inSlope: -5.667798
+      outSlope: -5.667798
+      tangentMode: 0
+    - time: 0.36789533
+      value: 0.3111752
+      inSlope: -1.671521
+      outSlope: -1.671521
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -0.15983191
+      outSlope: -0.15983191
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.15098402
+      value: 0.24119678
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.79017055
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &114908170593752346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694496607514266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb08b62f2b340f45b576261c379b894, type: 3}
+  m_Name:
+  isSfx: 1
+  audioClips:
+  - {fileID: 8300000, guid: 6a0376543c98fb64ab09f4fa18679b2f, type: 3}
+  - {fileID: 8300000, guid: 365219add0361e544a9f9645bd50ef62, type: 3}
+  - {fileID: 8300000, guid: 973a62db68307ac4b937a0482a3d978e, type: 3}
+  probability: []
+  volumOffset: 0
+  pitchOffset: 0.2
+  loopMode: 0
+  cutoff: 0
+--- !u!165 &165223046827336189
+AudioHighPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694496607514266}
+  m_Enabled: 1
+  m_CutoffFrequency: 250
+  m_HighpassResonanceQ: 1

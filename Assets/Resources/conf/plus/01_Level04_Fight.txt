@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelConf>
+	<Blocks>
+		<Block Id="1" Name="BLOCK_TOWN_KILL_1" Enable="0" />
+		<Block Id="2" Name="BLOCK_TOWN_KILL_2" Enable="0" />
+		<Block Id="3" Name="BLOCK_TOWN_KILL_3" Enable="0" />
+		<Block Id="4" Name="BLOCK_TOWN_KILL_4" Enable="0" />
+		<Block Id="5" Name="BLOCK_TOWN_KILL_5" Enable="0" />
+		<Block Id="6" Name="BLOCK_TOWN_KILL_6" Enable="0" />
+		<Block Id="7" Name="BLOCK_TOWN_KILL_7" Enable="1" />
+		<Block Id="8" Name="BLOCK_TOWN_KILL_8" Enable="0" />
+		<Block Id="9" Name="BLOCK_TOWN_KILL_9" Enable="0" />
+		<Block Id="10" Name="BLOCK_TOWN_KILL_10" Enable="0" />
+		<Block Id="11" Name="BLOCK_TOWN_KILL_11" Enable="0" />
+		<Block Id="12" Name="BLOCK_TOWN_KILL_12" Enable="1" />
+		<Block Id="13" Name="BLOCK_TOWN_KILL_13" Enable="1" />
+		<Block Id="14" Name="BLOCK_TOWN_KILL_14" Enable="0" />
+		<Block Id="15" Name="BLOCK_TOWN_KILL_15" Enable="0" />
+	</Blocks>
+	<Player SpawnPoint="P_L_044" Direction="90" />
+	<Safepoints>
+		<Safepoint Point="P_L_141" />
+		<Safepoint Point="P_L_294" />
+		<Safepoint Point="P_L_020" />
+		<Safepoint Point="P_L_041" />
+		<Safepoint Point="P_L_155" />
+	</Safepoints>
+	<PatrollingParams>
+	</PatrollingParams>
+	<Waves>
+		<Wave Id="1">
+			<Enemys>
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_157" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_046" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_041" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_035" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_024" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_291" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_151" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_292" />
+			</DropItems>
+		</Wave>
+		<Wave Id="2">
+			<Enemys>
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_141" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_296" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_033" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_027" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_155" AIParam="5" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_153" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_043" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_044" />
+			</DropItems>
+		</Wave>
+		<Wave Id="3">
+			<Enemys>
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_034" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_030" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_041" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_292" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_283" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_039" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_148" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_296" />
+			</DropItems>
+		</Wave>
+		<Wave Id="4">
+			<Enemys>
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_020" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_041" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_S1" SpawnPoint="P_L_297" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_155" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_156" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_027" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_023" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_024" />
+			</DropItems>
+		</Wave>
+	</Waves>
+</LevelConf>

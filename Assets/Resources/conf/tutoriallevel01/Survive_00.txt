@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelConf>
+	<Blocks>
+		<Block Id="1" Name="Block01" Enable="0" />
+	</Blocks>
+	<Player SpawnPoint="P_L_027" Direction="180" />
+	<TimeLimit Value="60" />
+	<Safepoints>
+		<Safepoint Point="P_L_019" />
+		<Safepoint Point="P_L_025" />
+		<Safepoint Point="P_L_028" />
+		<Safepoint Point="P_L_011" />
+	</Safepoints>
+	<PatrollingParams />
+	<Waves>
+		<Wave Id="1">
+			<Enemys>
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_020" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_015" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_009" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_028/P_L_007" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_019/P_L_016" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_012/P_L_010" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_004" />
+			</DropItems>
+		</Wave>
+		<Wave Id="2">
+			<Enemys>
+				<Enemy Name="Co_G1" SpawnPoint="P_L_028" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_025" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_009" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_024/P_L_021" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_001/P_L_002" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_003/P_L_025" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_020" />
+			</DropItems>
+		</Wave>
+		<Wave Id="3">
+			<Enemys>
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_020" AIParam="7" PatrollingParam="-1" />
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_015" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_008" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_018/P_L_017" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_009/P_L_008" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_013/P_L_022" />
+				<DropItem Name="BulletBag01" SpawnRate="1.0" SpawnPoints="P_L_009" />
+			</DropItems>
+		</Wave>
+		<Wave Id="4">
+			<Enemys>
+				<Enemy Name="Sc_G1" SpawnPoint="P_L_020" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sn_G1" SpawnPoint="P_L_015" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Co_G1" SpawnPoint="P_L_009" AIParam="8" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_028/P_L_007" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_019/P_L_016" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_012/P_L_010" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_004" />
+			</DropItems>
+		</Wave>
+	</Waves>
+</LevelConf>

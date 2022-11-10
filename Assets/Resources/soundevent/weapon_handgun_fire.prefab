@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1533036518816459}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1533036518816459
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4801538596846088}
+  - 114: {fileID: 114231654795341736}
+  m_Layer: 0
+  m_Name: weapon_handgun_fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801538596846088
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533036518816459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07, y: 1.43, z: 0.925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114231654795341736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533036518816459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073bfe71d97dbba49ae8f4f87cdc9b3e, type: 3}
+  m_Name:
+  audioEffectRefs:
+  - {fileID: 1811308880285629, guid: afdb1075ee1a27f498a6bfed93f3bd7e, type: 2}
+  - {fileID: 1963988634790938, guid: 0615636595ad34f4fbe98dfc59358031, type: 2}
+  maxDelayTime: 100
+  useDelayPlay: 1
+  delayTimeArray:
+  - 0
+  - 0.334

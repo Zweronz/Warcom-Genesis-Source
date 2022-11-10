@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Level04-dimian_L
+  m_Shader: {fileID: 4800000, guid: 5534e99cf2be54a45bbdc05e33d30b6f, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 77bd324a0fdfdb64f8bbc68c62c71d49, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LightMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 30fc009091847564ebaddc9e688c4bd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BlendTex1
+      second:
+        m_Texture: {fileID: 2800000, guid: b9501686b496ad743a9b909271029fba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex1
+      second:
+        m_Texture: {fileID: 2800000, guid: b9501686b496ad743a9b909271029fba, type: 3}
+        m_Scale: {x: 60, y: 60}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.35686275, g: 0.35686275, b: 0.32156864, a: 1}

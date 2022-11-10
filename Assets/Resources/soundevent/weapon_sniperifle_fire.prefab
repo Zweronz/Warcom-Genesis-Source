@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1099545902929664}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1099545902929664
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4678205066647832}
+  - 114: {fileID: 114535468071068002}
+  m_Layer: 0
+  m_Name: weapon_sniperifle_fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4678205066647832
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099545902929664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 1.23, z: 1.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114535468071068002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099545902929664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073bfe71d97dbba49ae8f4f87cdc9b3e, type: 3}
+  m_Name:
+  audioEffectRefs:
+  - {fileID: 1468483934938763, guid: 793eb556ae21df34e8fc5b9e01f2b798, type: 2}
+  - {fileID: 1889663307491705, guid: 0595a71765294854d947426c6568c48a, type: 2}
+  maxDelayTime: 333
+  useDelayPlay: 1
+  delayTimeArray:
+  - 0
+  - 0.8

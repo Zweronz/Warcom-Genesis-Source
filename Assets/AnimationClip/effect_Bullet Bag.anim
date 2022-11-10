@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: effect_Bullet Bag
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.70710677, y: -0, z: -0, w: -0.70710677}
+        inSlope: {x: -0.012922882, y: -0.74033004, z: -0.74033004, w: 0.012922882}
+        outSlope: {x: -0.012922882, y: -0.74033004, z: -0.74033004, w: 0.012922882}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0.664463, y: -0.24184474, z: -0.24184474, w: -0.664463}
+        inSlope: {x: -0.2532077, y: -0.6956826, z: -0.6956826, w: 0.2532077}
+        outSlope: {x: -0.2532077, y: -0.6956826, z: -0.6956826, w: 0.2532077}
+        tangentMode: 0
+      - time: 1.066667
+        value: {x: 0.30997506, y: -0.63554347, z: -0.63554347, w: -0.30997506}
+        inSlope: {x: -0.66540444, y: -0.32453865, z: -0.32453865, w: 0.66540444}
+        outSlope: {x: -0.66540444, y: -0.32453865, z: -0.32453865, w: 0.66540444}
+        tangentMode: 0
+      - time: 1.7999996
+        value: {x: -0.21850772, y: -0.6724986, z: -0.6724986, w: 0.21850772}
+        inSlope: {x: -0.7040975, y: 0.22877476, z: 0.22877476, w: 0.7040975}
+        outSlope: {x: -0.7040975, y: 0.22877476, z: 0.22877476, w: 0.7040975}
+        tangentMode: 0
+      - time: 2.5333323
+        value: {x: -0.6243378, y: -0.33196726, z: -0.33196726, w: 0.6243378}
+        inSlope: {x: -0.34756365, y: 0.6536715, z: 0.6536715, w: 0.34756365}
+        outSlope: {x: -0.34756365, y: 0.6536715, z: 0.6536715, w: 0.34756365}
+        tangentMode: 0
+      - time: 2.9666653
+        value: {x: -0.706676, y: -0.024678819, z: -0.024678819, w: 0.706676}
+        inSlope: {x: -0.025837466, y: 0.7398799, z: 0.7398799, w: 0.025837466}
+        outSlope: {x: -0.025837466, y: 0.7398799, z: 0.7398799, w: 0.025837466}
+        tangentMode: 0
+      - time: 3
+        value: {x: -0.70710677, y: 6.181724E-08, z: 6.181724E-08, w: 0.70710677}
+        inSlope: {x: -0.012922341, y: 0.74033535, z: 0.74033535, w: 0.012922341}
+        outSlope: {x: -0.012922341, y: 0.74033535, z: 0.74033535, w: 0.012922341}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Bullet Bag
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.033333335
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalEulerAnglesHint.z
+    path: Bullet Bag
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 180.10757
+        outSlope: 180.10757
+        tangentMode: 0
+      - time: 0.033333335
+        value: 6.0035863
+        inSlope: 180.05287
+        outSlope: 180.05287
+        tangentMode: 0
+      - time: 2
+        value: 360
+        inSlope: 179.99817
+        outSlope: 179.99817
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalEulerAnglesHint.y
+    path: Bullet Bag
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.033333335
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 2
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalEulerAnglesHint.x
+    path: Bullet Bag
+    classID: 4
+    script: {fileID: 0}
+  m_SampleRate: 30
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 0
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

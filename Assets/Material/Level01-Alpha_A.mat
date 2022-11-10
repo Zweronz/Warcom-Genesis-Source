@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Level01-Alpha_A
+  m_Shader: {fileID: 4800000, guid: cd53985b54301384a9e0902c58660fcd, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 36c0355f2ff61664baac1acca87f855c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.7372549, g: 0.69803923, b: 0.654902, a: 0.5}

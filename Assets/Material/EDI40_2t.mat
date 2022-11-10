@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EDI40_2t
+  m_Shader: {fileID: 4800000, guid: b73fe87eda52800449d76f8943bff09b, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b30e771fedf277549a10637b499a5e2b, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BackTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8190849774b715d4d99d926c04ff5b22, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorB
+      second: {r: 1, g: 1, b: 1, a: 1}

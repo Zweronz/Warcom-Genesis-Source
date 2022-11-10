@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelConf>
+	<Blocks>
+		<Block Id="1" Name="BLOCK_TOWN_KILL_1" Enable="1" />
+		<Block Id="2" Name="BLOCK_TOWN_KILL_2" Enable="0" />
+		<Block Id="3" Name="BLOCK_TOWN_KILL_3" Enable="1" />
+		<Block Id="4" Name="BLOCK_TOWN_KILL_4" Enable="1" />
+		<Block Id="5" Name="BLOCK_TOWN_KILL_5" Enable="0" />
+		<Block Id="6" Name="BLOCK_TOWN_KILL_6" Enable="0" />
+		<Block Id="7" Name="BLOCK_TOWN_KILL_7" Enable="0" />
+		<Block Id="8" Name="BLOCK_TOWN_KILL_8" Enable="1" />
+		<Block Id="9" Name="BLOCK_TOWN_KILL_9" Enable="0" />
+		<Block Id="10" Name="BLOCK_TOWN_KILL_10" Enable="0" />
+		<Block Id="11" Name="BLOCK_TOWN_KILL_11" Enable="0" />
+		<Block Id="12" Name="BLOCK_TOWN_KILL_12" Enable="1" />
+		<Block Id="13" Name="BLOCK_TOWN_KILL_13" Enable="1" />
+		<Block Id="14" Name="BLOCK_TOWN_KILL_14" Enable="1" />
+		<Block Id="15" Name="BLOCK_TOWN_KILL_15" Enable="1" />
+	</Blocks>
+	<Player SpawnPoint="P_L_185" Direction="270" />
+	<PatrollingParams>
+	</PatrollingParams>
+	<Waves>
+		<Wave Id="1">
+			<Enemys>
+				<Enemy Name="As_G2" SpawnPoint="P_L_181" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_098" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_192" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="Sc_G2" SpawnPoint="P_L_138" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_090" AIParam="5" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_259" />
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_230" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_183" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_191" />
+			</DropItems>
+		</Wave>
+		<Wave Id="2">
+			<Enemys>
+				<Enemy Name="As_G2" SpawnPoint="P_L_198" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_135" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_134" AIParam="8" PatrollingParam="-1" />
+				<Enemy Name="Sc_G2" SpawnPoint="P_L_212" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_105" AIParam="5" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_199" />
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_052" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_195" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_196" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_200" />
+			</DropItems>
+		</Wave>
+		<Wave Id="3">
+			<Enemys>
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_031" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_244" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_103" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="Sc_G2" SpawnPoint="P_L_254" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="Sc_S2" SpawnPoint="P_L_246" AIParam="5" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_204" />
+				<DropItem Name="BulletBag01" SpawnRate="0.0" SpawnPoints="P_L_242" />
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_260" />
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_102" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_101" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_013" />
+			</DropItems>
+		</Wave>
+		<Wave Id="4">
+			<Enemys>
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_222" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="Sn_S2" SpawnPoint="P_L_223" AIParam="3" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_221" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_220" AIParam="5" PatrollingParam="-1" />
+				<Enemy Name="As_G2" SpawnPoint="P_L_099" AIParam="5" PatrollingParam="-1" />
+			</Enemys>
+			<DropItems>
+				<DropItem Name="MissionGoal01" SpawnRate="1.0" SpawnPoints="P_L_005" />
+				<DropItem Name="BulletBag01" SpawnRate="1.0" SpawnPoints="P_L_009" />
+				<DropItem Name="Exp01" SpawnRate="1.0" SpawnPoints="P_L_011" />
+				<DropItem Name="MedicalSmall" SpawnRate="1.0" SpawnPoints="P_L_251" />
+				<DropItem Name="Money01" SpawnRate="1.0" SpawnPoints="P_L_010" />
+			</DropItems>
+		</Wave>
+	</Waves>
+</LevelConf>
