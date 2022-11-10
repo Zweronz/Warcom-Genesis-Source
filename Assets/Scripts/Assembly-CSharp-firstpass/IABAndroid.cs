@@ -6,63 +6,63 @@ public class IABAndroid
 
 	static IABAndroid()
 	{
-		if (Application.platform != RuntimePlatform.Android)
-		{
-			return;
-		}
-		using (AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.prime31.IABPlugin"))
-		{
-			_plugin = androidJavaClass.CallStatic<AndroidJavaObject>("instance", new object[0]);
-		}
+		//if (Application.platform != RuntimePlatform.Android)
+		//{
+		//	return;
+		//}
+		//using (AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.prime31.IABPlugin"))
+		//{
+		//	_plugin = androidJavaClass.CallStatic<AndroidJavaObject>("instance", new object[0]);
+		//}
 	}
 
 	public static void init(string publicKey)
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			_plugin.Call("init", publicKey);
-		}
+		//if (Application.platform == RuntimePlatform.Android)
+		//{
+		//	_plugin.Call("init", publicKey);
+		//}
 	}
 
 	public static void startCheckBillingAvailableRequest()
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			_plugin.Call("startCheckBillingAvailableRequest");
-		}
+		//if (Application.platform == RuntimePlatform.Android)
+		//{
+		//	_plugin.Call("startCheckBillingAvailableRequest");
+		//}
 	}
 
 	public static void restoreTransactions()
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			_plugin.Call("restoreTransactions");
-		}
+		//if (Application.platform == RuntimePlatform.Android)
+		//{
+		//	_plugin.Call("restoreTransactions");
+		//}
 	}
 
 	public static void purchaseProduct(string productId)
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			_plugin.Call("purchaseProduct", productId);
-		}
+		//if (Application.platform == RuntimePlatform.Android)
+		//{
+		//	_plugin.Call("purchaseProduct", productId);
+		//}
 	}
 
 	public static void testPurchaseProduct()
 	{
-		purchaseProduct("android.test.purchased");
+		//purchaseProduct("android.test.purchased");
 	}
 
 	public static void testRefundedProduct()
 	{
-		purchaseProduct("android.test.refunded");
+		//purchaseProduct("android.test.refunded");
 	}
 
 	public static void stopBillingService()
 	{
-		if (Application.platform == RuntimePlatform.Android)
-		{
-			_plugin.Call("stopService");
-		}
+		//if (Application.platform == RuntimePlatform.Android)
+		//{
+		//	_plugin.Call("stopService");
+		//}
 	}
 }
